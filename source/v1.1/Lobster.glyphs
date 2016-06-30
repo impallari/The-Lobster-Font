@@ -82555,10 +82555,10 @@ unicode = 20BA;
 },
 {
 glyphname = manat;
-lastChange = "2016-06-30 21:39:20 +0000";
+lastChange = "2016-06-30 21:56:10 +0000";
 layers = (
 {
-layerId = "C039C1CC-9A8C-45EF-8573-4C10F390742F";
+background = {
 paths = (
 {
 closed = 1;
@@ -82588,6 +82588,38 @@ nodes = (
 "1521 664 OFFCURVE",
 "1337 250 CURVE",
 "1226 0 LINE"
+);
+}
+);
+};
+layerId = "C039C1CC-9A8C-45EF-8573-4C10F390742F";
+paths = (
+{
+closed = 1;
+nodes = (
+"699 0 LINE",
+"903 0 LINE",
+"1298 1653 LINE",
+"1101 1653 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1553 0 LINE",
+"1891 706 OFFCURVE",
+"1881 1532 OFFCURVE",
+"1084 1532 CURVE",
+"510 1532 OFFCURVE",
+"199 868 OFFCURVE",
+"30 0 CURVE",
+"312 0 LINE",
+"499 864 OFFCURVE",
+"674 1277 OFFCURVE",
+"1060 1277 CURVE",
+"1625 1277 OFFCURVE",
+"1567 694 OFFCURVE",
+"1259 0 CURVE"
 );
 }
 );
