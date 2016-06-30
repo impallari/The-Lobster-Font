@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Wgrave" format="1">
+  <advance width="1970"/>
+  <unicode hex="1E80"/>
+  <outline>
+    <contour>
+      <point x="1544" y="0" type="line"/>
+      <point x="2114" y="1526" type="line"/>
+      <point x="1970" y="1526" type="line"/>
+      <point x="1540" y="272" type="line"/>
+      <point x="1522" y="1526" type="line"/>
+      <point x="1262" y="1526" type="line"/>
+      <point x="831" y="272" type="line"/>
+      <point x="813" y="1532" type="line"/>
+      <point x="786" y="1534"/>
+      <point x="762" y="1536"/>
+      <point x="731" y="1536" type="curve" smooth="yes"/>
+      <point x="389" y="1536"/>
+      <point x="12" y="1276"/>
+      <point x="12" y="1004" type="curve" smooth="yes"/>
+      <point x="12" y="856"/>
+      <point x="90" y="805"/>
+      <point x="231" y="805" type="curve"/>
+      <point x="231" y="821"/>
+      <point x="203" y="840"/>
+      <point x="203" y="944" type="curve" smooth="yes"/>
+      <point x="203" y="1171"/>
+      <point x="317" y="1327"/>
+      <point x="508" y="1399" type="curve"/>
+      <point x="541" y="0" type="line"/>
+      <point x="836" y="0" type="line"/>
+      <point x="1225" y="1042" type="line"/>
+      <point x="1249" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1459" y="1661" type="line"/>
+      <point x="1400" y="2048" type="line"/>
+      <point x="1185" y="2048" type="line"/>
+      <point x="1306" y="1661" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-30 17:42:54 +0000</string>
+    </dict>
+  </lib>
+</glyph>

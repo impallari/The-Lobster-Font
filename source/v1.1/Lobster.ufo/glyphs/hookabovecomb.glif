@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hookabovecomb" format="1">
+  <advance width="511"/>
+  <unicode hex="0309"/>
+  <outline>
+    <contour>
+      <point x="132" y="1154" type="line"/>
+      <point x="228" y="1149" type="line"/>
+      <point x="243" y="1232" type="line"/>
+      <point x="371" y="1243"/>
+      <point x="459" y="1319"/>
+      <point x="459" y="1415" type="curve" smooth="yes"/>
+      <point x="459" y="1512"/>
+      <point x="371" y="1585"/>
+      <point x="247" y="1585" type="curve" smooth="yes"/>
+      <point x="173" y="1585"/>
+      <point x="93" y="1564"/>
+      <point x="47" y="1535" type="curve"/>
+      <point x="101" y="1449" type="line"/>
+      <point x="135" y="1471"/>
+      <point x="178" y="1482"/>
+      <point x="223" y="1482" type="curve" smooth="yes"/>
+      <point x="287" y="1482"/>
+      <point x="319" y="1452"/>
+      <point x="319" y="1402" type="curve" smooth="yes"/>
+      <point x="319" y="1357"/>
+      <point x="285" y="1324"/>
+      <point x="223" y="1324" type="curve" smooth="yes"/>
+      <point x="197" y="1324"/>
+      <point x="163" y="1327"/>
+      <point x="132" y="1333" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-30 17:42:54 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,249 @@
+# Prefix: Prefix
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem cyrl dflt;
+
+@class59 = [ afii10065.end afii10067.end afii10069.end afii10070.end afii10072.end afii10073.end afii10074.end afii10075.end afii10076.end afii10077.end afii10078.end afii10079.end afii10080.end afii10081.end afii10083.end afii10084.end afii10085.end afii10087.end afii10089.end afii10090.end afii10093.end afii10096.end afii10097.end afii10071.end afii10102.end afii10103.end afii10105.end afii10065_afii10087.liga afii10065_afii10089.liga afii10066_afii10072.liga afii10066_afii10103.liga afii10066_afii10104.liga afii10066_afii10105.liga afii10066_afii10110.liga afii10066_afii10071.liga afii10066_afii10075.liga afii10067_afii10072.liga afii10067_afii10073.liga afii10067_afii10087.liga afii10068_afii10073.liga afii10068_afii10087.liga afii10068_afii10089.liga afii10100_afii10073.liga afii10100_afii10087.liga afii10100_afii10089.liga afii10069_afii10089.liga afii10069_afii10105.liga afii10071_afii10073.liga afii10070_afii10089.liga afii10071_afii10089.liga afii10072_afii10089.liga afii10074_afii10089.liga afii10075_afii10089.liga afii10070_afii10073.liga afii10076_afii10089.liga afii10109_afii10089.liga afii10077_afii10089.liga afii10078_afii10089.liga afii10079_afii10089.liga afii10080_afii10072.liga afii10096_afii10072.liga afii10080_afii10073.liga afii10096_afii10073.liga afii10080_afii10077.liga afii10096_afii10077.liga afii10080_afii10078.liga afii10096_afii10078.liga afii10096_afii10087.liga afii10081_afii10089.liga afii10083_afii10073.liga afii10085_afii10105.liga afii10101_afii10073.liga afii10101_afii10087.liga afii10083_afii10089.liga afii10101_afii10089.liga afii10084_afii10089.liga afii10110_afii10105.liga afii10085_afii10089.liga afii10110_afii10089.liga afii10087_afii10089.liga afii10089_afii10089.liga afii10090_afii10089.liga afii10093_afii10089.liga afii10103_afii10089.liga afii10104_afii10089.liga afii10104_afii10104.liga afii10108_afii10105.liga afii10108_afii10089.liga afii10105_afii10105.liga afii10105_afii10089.liga afii10073_afii10073.liga afii10073_afii10087.liga afii10073_afii10089.liga afii10193_afii10089.liga afii10095_afii10073.liga afii10097_afii10089.liga afii10070_afii10087.liga afii10071_afii10087.liga afii10080_afii10087.liga afii10082_afii10073.liga afii10083_afii10087.liga afii10086_afii10073.liga ];
+
+@_afii10052 = [ afii10052' afii10020 afii10036 afii10050 ];
+
+@aalt2 = [ A.salt B.salt E.salt N.salt k.salt p.salt ];
+
+@class56 = [ a c d e g h i j k l m n o s t u x y afii10073 afii10087 a_x aacute b_s e_x eacute fi fl f_u ij i_x iacute o_s oacute oacute_s u_x uacute ];
+
+@liga4 = [ afii10065 afii10066 afii10067 afii10068 afii10069 afii10070 afii10072 afii10073 afii10074 afii10075 afii10076 afii10077 afii10078 afii10079 afii10080 afii10081 afii10082 afii10083 afii10084 afii10085 afii10086 afii10087 afii10088 afii10089 afii10090 afii10091 afii10092 afii10093 afii10094 afii10095 afii10096 afii10097 afii10071 afii10100 afii10101 afii10102 afii10103 afii10104 afii10105 afii10106 afii10107 afii10108 afii10109 afii10110 afii10193 mu afii10080.end afii10098 afii10065_afii10087 afii10065_afii10089 afii10066_afii10068 afii10066_afii10072 afii10066_afii10095 afii10066_afii10100 afii10066_afii10103 afii10066_afii10104 afii10066_afii10105 afii10066_afii10110 afii10066_afii10071 afii10066_afii10075 glyph455 afii10067_afii10068 afii10067_afii10100 afii10067_afii10072 afii10067_afii10073 afii10067_afii10087 afii10068_afii10073 afii10068_afii10087 afii10068_afii10089 afii10100_afii10073 afii10100_afii10087 afii10100_afii10089 afii10069_afii10089 afii10069_afii10105 afii10071_afii10073 afii10070_afii10089 afii10071_afii10089 afii10072_afii10089 afii10074_afii10089 afii10075_afii10089 afii10070_afii10073 afii10076_afii10089 afii10109_afii10089 afii10077_afii10089 afii10078_afii10089 afii10079_afii10089 afii10080_afii10068 afii10080_afii10100 afii10096_afii10068 afii10096_afii10100 afii10080_afii10072 afii10096_afii10072 afii10080_afii10073 afii10096_afii10073 afii10080_afii10077 afii10096_afii10077 afii10080_afii10106 afii10096_afii10106 afii10080_afii10078 afii10096_afii10078 afii10096_afii10087 afii10080_afii10095 afii10096_afii10095 afii10081_afii10089 afii10083_afii10073 afii10085_afii10105 afii10101_afii10073 afii10101_afii10087 afii10083_afii10089 afii10101_afii10089 afii10084_afii10089 afii10083_afii10092 afii10110_afii10105 afii10085_afii10089 afii10110_afii10089 afii10087_afii10089 afii10087_afii10092 afii10089_afii10089 afii10090_afii10089 afii10093_afii10089 afii10103_afii10089 afii10104_afii10089 afii10104_afii10104 uni20B4 afii10108_afii10105 afii10108_afii10089 afii10105_afii10105 afii10105_afii10089 afii10073_afii10073 afii10073_afii10087 afii10073_afii10089 afii10193_afii10089 afii10095_afii10073 afii10097_afii10089 afii10022_afii10073 afii10022_afii10087 afii10023_afii10073 afii10023_afii10087 afii10035_afii10073 afii10035_afii10087 afii10053_afii10073 afii10053_afii10087 afii10070_afii10087 afii10071_afii10087 afii10080_afii10087 afii10082_afii10073 afii10083_afii10087 afii10086_afii10073 afii10065.end afii10083.end afii10072.end afii10070.end afii10071.end afii10069.end afii10074.end afii10075.end afii10076.end afii10077.end afii10078.end afii10079.end afii10081.end afii10084.end afii10085.end afii10087.end afii10089.end afii10090.end afii10093.end afii10103.end afii10105.end afii10102.end afii10097.end afii10067.end afii10073.end afii10065_afii10087.liga afii10065_afii10089.liga afii10066_afii10072.liga afii10066_afii10103.liga afii10066_afii10104.liga afii10066_afii10105.liga afii10066_afii10110.liga afii10066_afii10071.liga afii10066_afii10075.liga afii10067_afii10072.liga afii10067_afii10073.liga afii10067_afii10087.liga afii10068_afii10073.liga afii10068_afii10087.liga afii10068_afii10089.liga afii10100_afii10073.liga afii10100_afii10087.liga afii10100_afii10089.liga afii10069_afii10089.liga afii10069_afii10105.liga afii10070_afii10073.liga afii10070_afii10089.liga afii10071_afii10089.liga afii10071_afii10073.liga afii10072_afii10089.liga afii10074_afii10089.liga afii10075_afii10089.liga afii10076_afii10089.liga afii10109_afii10089.liga afii10077_afii10089.liga afii10078_afii10089.liga afii10079_afii10089.liga afii10080_afii10072.liga afii10096_afii10072.liga afii10080_afii10073.liga afii10096_afii10073.liga afii10080_afii10077.liga afii10096_afii10077.liga afii10080_afii10078.liga afii10096_afii10078.liga afii10096_afii10087.liga afii10081_afii10089.liga afii10083_afii10073.liga afii10085_afii10105.liga afii10101_afii10073.liga afii10101_afii10087.liga afii10083_afii10089.liga afii10101_afii10089.liga afii10084_afii10089.liga afii10110_afii10105.liga afii10085_afii10089.liga afii10110_afii10089.liga afii10087_afii10089.liga afii10089_afii10089.liga afii10090_afii10089.liga afii10093_afii10089.liga afii10103_afii10089.liga afii10104_afii10089.liga afii10104_afii10104.liga afii10108_afii10105.liga afii10108_afii10089.liga afii10105_afii10105.liga afii10105_afii10089.liga afii10073_afii10073.liga afii10073_afii10087.liga afii10073_afii10089.liga afii10193_afii10089.liga afii10095_afii10073.liga afii10097_afii10089.liga afii10070_afii10087.liga afii10071_afii10087.liga afii10080_afii10087.liga afii10082_afii10073.liga afii10083_afii10087.liga afii10086_afii10073.liga afii10087.init afii10073.init ];
+
+@liga2 = [ afii10065 afii10067 afii10069 afii10070 afii10072 afii10073 afii10074 afii10075 afii10076 afii10077 afii10078 afii10079 afii10080 afii10081 afii10083 afii10084 afii10085 afii10087 afii10089 afii10090 afii10093 afii10096 afii10097 afii10071 afii10102 afii10103 afii10105 afii10065_afii10087 afii10065_afii10089 afii10066_afii10072 afii10066_afii10103 afii10066_afii10104 afii10066_afii10105 afii10066_afii10110 afii10066_afii10071 afii10066_afii10075 afii10067_afii10072 afii10067_afii10073 afii10067_afii10087 afii10068_afii10073 afii10068_afii10087 afii10068_afii10089 afii10100_afii10073 afii10100_afii10087 afii10100_afii10089 afii10069_afii10089 afii10069_afii10105 afii10071_afii10073 afii10070_afii10089 afii10071_afii10089 afii10072_afii10089 afii10074_afii10089 afii10075_afii10089 afii10070_afii10073 afii10076_afii10089 afii10109_afii10089 afii10077_afii10089 afii10078_afii10089 afii10079_afii10089 afii10080_afii10072 afii10096_afii10072 afii10080_afii10073 afii10096_afii10073 afii10080_afii10077 afii10096_afii10077 afii10080_afii10078 afii10096_afii10078 afii10096_afii10087 afii10081_afii10089 afii10083_afii10073 afii10085_afii10105 afii10101_afii10073 afii10101_afii10087 afii10083_afii10089 afii10101_afii10089 afii10084_afii10089 afii10110_afii10105 afii10085_afii10089 afii10110_afii10089 afii10087_afii10089 afii10089_afii10089 afii10090_afii10089 afii10093_afii10089 afii10103_afii10089 afii10104_afii10089 afii10104_afii10104 afii10108_afii10105 afii10108_afii10089 afii10105_afii10105 afii10105_afii10089 afii10073_afii10073 afii10073_afii10087 afii10073_afii10089 afii10193_afii10089 afii10095_afii10073 afii10097_afii10089 afii10070_afii10087 afii10071_afii10087 afii10080_afii10087 afii10082_afii10073 afii10083_afii10087 afii10086_afii10073 ];
+
+@_afii10056 = [ afii10056' afii10017 afii10026 afii10027 afii10029 afii10031 afii10041 afii10042 afii10045 ];
+
+@_afii10062 = [ afii10062' afii10037 ];
+
+@_afii10077 = [ afii10077' afii10078 afii10106 ];
+
+@_afii10051 = [ afii10051' afii10060 afii10036 afii10044 ];
+
+@_afii100521 = [ afii10052' afii10055 afii10056 afii10059 afii10061 afii10145 afii10018 afii10019 afii10020 afii10026 afii10027 afii10028 afii10031 afii10033 afii10034 afii10040 afii10041 afii10042 afii10043 afii10045 afii10046 afii10048 afii61352 afii10050 ];
+
+@_afii10053 = [ afii10053' afii10035 ];
+
+@aalt1 = [ A B E N k p ];
+
+@_afii10021 = [ afii10021' afii10032 afii10047 afii10048 ];
+
+@_afii10061 = [ afii10061' afii10024 afii10028 ];
+
+@class57 = [ a.end c.end d.end e.end g.end h.end i.end j.end k.end l.end m.end n.end o.end s.end t.end u.end x.end y.end afii10073.init afii10087.init a_x.end aacute.end b_s.end e_x.end eacute.end fi.end fl.end f_u.end ij.end i_x.end iacute.end o_s.end oacute.end oacute_s.end u_x.end uacute.end ];
+
+@liga1 = [ a c d e g h i j k l m n o s t u x y a_x aacute b_s e_x eacute fi fl f_u ij i_x iacute o_s oacute oacute_s u_x uacute ];
+
+@liga3 = [ a b c d e f g h i j k l m n o p q r s t u v w x y z a.end a_x a_x.end a_z aacute aacute.end acircumflex adieresis ae agrave aogonek aring atilde b_s b_s.end b_s_x b_s_z c.end c_x c_z cacute ccaron ccedilla ccircumflex d.end dotlessi dotlessi.end e.end e_x e_x.end e_z eacute eacute.end eacute_x ecircumflex edieresis egrave eogonek eth ff ffi ffl f_f_t fi fi.end f_i_x f_i_z fl fl.end f_l_x f_l_z f_t f_u f_u.end f_x g.end g_p g_x g_z h.end i.end ij ij.end i_x i_x.end i_z iacute iacute.end iacute_x iacute_z icircumflex idieresis igrave j.end j_x j_z k.end k.salt l.end l_x l_z lslash m.end m_x m_z mu n.end n_z nacute ntilde o.end o_ae o_s o_s.end o_s_x o_s_z o_x oacute oacute.end oacute_s oacute_s.end oacute_s_x oacute_s_z oacute_x ocircumflex odieresis oe ograve oslash otilde p.salt r_x r_z s.end s_x s_z sacute scaron t.end t_x t_z thorn u.end u_v u_x u_x.end uacute uacute.end ucircumflex udieresis ugrave x.end y.end y_p y_x y_z yacute ydieresis zacute zcaron zdotaccent ];
+
+feature aalt {
+  feature frac;
+  feature liga;
+  feature salt;
+} aalt;
+
+feature frac {
+lookup frac0 {
+	sub zero slash zero by percent;
+} frac0;
+script cyrl;
+lookup frac0;
+} frac;
+
+feature liga {
+ # Standard Ligatures
+ # Latin
+lookup liga2 {
+    sub E x by E_x;
+    sub F i by F_i;
+    sub I J by IJ;
+    sub T h by T_h;
+    sub T i by T_i;
+} liga2;
+lookup liga3 {
+    sub d' z by d.end;
+    sub u' z by u.end;
+} liga3;
+lookup liga4 {
+    sub a x by a_x;
+    sub a z by a_z;
+    sub b s x by b_s_x;
+    sub b s z by b_s_z;
+    sub b s by b_s;
+    sub c x by c_x;
+    sub c z by c_z;
+    sub e x by e_x;
+    sub e z by e_z;
+    sub f f i by ffi;
+    sub f f l by ffl;
+    sub f f t by f_f_t;
+    sub f i x by f_i_x;
+    sub f i z by f_i_z;
+    sub f l x by f_l_x;
+    sub f l z by f_l_z;
+    sub f f by ff;
+    sub f i by fi;
+    sub f l by fl;
+    sub f t by f_t;
+    sub f u by f_u;
+    sub f x by f_x;
+    sub g p by g_p;
+    sub g x by g_x;
+    sub g z by g_z;
+    sub i j by ij;
+    sub i x by i_x;
+    sub i z by i_z;
+    sub j x by j_x;
+    sub j z by j_z;
+    sub l x by l_x;
+    sub l z by l_z;
+    sub m x by m_x;
+    sub m z by m_z;
+    sub n z by n_z;
+    sub o s x by o_s_x;
+    sub o s z by o_s_z;
+    sub o s by o_s;
+    sub o x by o_x;
+    sub o ae by o_ae;
+    sub r x by r_x;
+    sub r z by r_z;
+    sub s x by s_x;
+    sub s z by s_z;
+    sub t x by t_x;
+    sub t z by t_z;
+    sub u v by u_v;
+    sub u x by u_x;
+    sub y p by y_p;
+    sub y x by y_x;
+    sub y z by y_z;
+    sub eacute x by eacute_x;
+    sub iacute x by iacute_x;
+    sub iacute z by iacute_z;
+    sub oacute s x by oacute_s_x;
+    sub oacute s z by oacute_s_z;
+    sub oacute s by oacute_s;
+    sub oacute x by oacute_x;
+} liga4;
+lookup liga5 {
+    ignore sub @liga1' @liga3;
+    sub @liga1' by [a.end c.end d.end e.end g.end h.end i.end j.end k.end l.end m.end n.end o.end s.end t.end u.end x.end y.end a_x.end aacute.end b_s.end e_x.end eacute.end fi.end fl.end f_u.end ij.end i_x.end iacute.end o_s.end oacute.end oacute_s.end u_x.end uacute.end];
+} liga5;
+lookup liga6 {
+    sub afii10023 afii10073 by afii10023_afii10073;
+    sub afii10023 afii10087 by afii10023_afii10087;
+    sub afii10053 afii10073 by afii10053_afii10073;
+    sub afii10053 afii10087 by afii10053_afii10087;
+    sub afii10022 afii10073 by afii10022_afii10073;
+    sub afii10022 afii10087 by afii10022_afii10087;
+    sub afii10035 afii10073 by afii10035_afii10073;
+    sub afii10035 afii10087 by afii10035_afii10087;
+    sub afii10065 afii10087 by afii10065_afii10087;
+    sub afii10065 afii10089 by afii10065_afii10089;
+    sub afii10066 afii10068 by afii10066_afii10068;
+    sub afii10066 afii10072 by afii10066_afii10072;
+    sub afii10066 afii10075 by afii10066_afii10075;
+    sub afii10066 afii10095 by afii10066_afii10095;
+    sub afii10066 afii10071 by afii10066_afii10071;
+    sub afii10066 afii10100 by afii10066_afii10100;
+    sub afii10066 afii10103 by afii10066_afii10103;
+    sub afii10066 afii10104 by afii10066_afii10104;
+    sub afii10066 afii10105 by afii10066_afii10105;
+    sub afii10066 afii10110 by afii10066_afii10110;
+    sub afii10067 afii10068 by afii10067_afii10068;
+    sub afii10067 afii10072 by afii10067_afii10072;
+    sub afii10067 afii10073 by afii10067_afii10073;
+    sub afii10067 afii10087 by afii10067_afii10087;
+    sub afii10067 afii10100 by afii10067_afii10100;
+    sub afii10068 afii10073 by afii10068_afii10073;
+    sub afii10068 afii10087 by afii10068_afii10087;
+    sub afii10068 afii10089 by afii10068_afii10089;
+    sub afii10069 afii10089 by afii10069_afii10089;
+    sub afii10069 afii10105 by afii10069_afii10105;
+    sub afii10070 afii10073 by afii10070_afii10073;
+    sub afii10070 afii10087 by afii10070_afii10087;
+    sub afii10070 afii10089 by afii10070_afii10089;
+    sub afii10072 afii10089 by afii10072_afii10089;
+    sub afii10073 afii10073 by afii10073_afii10073;
+    sub afii10073 afii10087 by afii10073_afii10087;
+    sub afii10073 afii10089 by afii10073_afii10089;
+    sub afii10074 afii10089 by afii10074_afii10089;
+    sub afii10075 afii10089 by afii10075_afii10089;
+    sub afii10076 afii10089 by afii10076_afii10089;
+    sub afii10077 afii10089 by afii10077_afii10089;
+    sub afii10078 afii10089 by afii10078_afii10089;
+    sub afii10079 afii10089 by afii10079_afii10089;
+    sub afii10080 afii10068 by afii10080_afii10068;
+    sub afii10080 afii10072 by afii10080_afii10072;
+    sub afii10080 afii10073 by afii10080_afii10073;
+    sub afii10080 afii10077 by afii10080_afii10077;
+    sub afii10080 afii10078 by afii10080_afii10078;
+    sub afii10080 afii10087 by afii10080_afii10087;
+    sub afii10080 afii10095 by afii10080_afii10095;
+    sub afii10080 afii10100 by afii10080_afii10100;
+    sub afii10080 afii10106 by afii10080_afii10106;
+    sub afii10081 afii10089 by afii10081_afii10089;
+    sub afii10082 afii10073 by afii10082_afii10073;
+    sub afii10083 afii10073 by afii10083_afii10073;
+    sub afii10083 afii10087 by afii10083_afii10087;
+    sub afii10083 afii10089 by afii10083_afii10089;
+    sub afii10083 afii10092 by afii10083_afii10092;
+    sub afii10084 afii10089 by afii10084_afii10089;
+    sub afii10085 afii10089 by afii10085_afii10089;
+    sub afii10085 afii10105 by afii10085_afii10105;
+    sub afii10086 afii10073 by afii10086_afii10073;
+    sub afii10087 afii10089 by afii10087_afii10089;
+    sub afii10087 afii10092 by afii10087_afii10092;
+    sub afii10089 afii10089 by afii10089_afii10089;
+    sub afii10090 afii10089 by afii10090_afii10089;
+    sub afii10093 afii10089 by afii10093_afii10089;
+    sub afii10095 afii10073 by afii10095_afii10073;
+    sub afii10096 afii10068 by afii10096_afii10068;
+    sub afii10096 afii10072 by afii10096_afii10072;
+    sub afii10096 afii10073 by afii10096_afii10073;
+    sub afii10096 afii10077 by afii10096_afii10077;
+    sub afii10096 afii10078 by afii10096_afii10078;
+    sub afii10096 afii10087 by afii10096_afii10087;
+    sub afii10096 afii10095 by afii10096_afii10095;
+    sub afii10096 afii10100 by afii10096_afii10100;
+    sub afii10096 afii10106 by afii10096_afii10106;
+    sub afii10097 afii10089 by afii10097_afii10089;
+    sub afii10071 afii10073 by afii10071_afii10073;
+    sub afii10071 afii10087 by afii10071_afii10087;
+    sub afii10071 afii10089 by afii10071_afii10089;
+    sub afii10100 afii10073 by afii10100_afii10073;
+    sub afii10100 afii10087 by afii10100_afii10087;
+    sub afii10100 afii10089 by afii10100_afii10089;
+    sub afii10101 afii10073 by afii10101_afii10073;
+    sub afii10101 afii10087 by afii10101_afii10087;
+    sub afii10101 afii10089 by afii10101_afii10089;
+    sub afii10103 afii10089 by afii10103_afii10089;
+    sub afii10104 afii10089 by afii10104_afii10089;
+    sub afii10104 afii10104 by afii10104_afii10104;
+    sub afii10105 afii10089 by afii10105_afii10089;
+    sub afii10105 afii10105 by afii10105_afii10105;
+    sub afii10108 afii10089 by afii10108_afii10089;
+    sub afii10108 afii10105 by afii10108_afii10105;
+    sub afii10109 afii10089 by afii10109_afii10089;
+    sub afii10110 afii10089 by afii10110_afii10089;
+    sub afii10110 afii10105 by afii10110_afii10105;
+    sub afii10193 afii10089 by afii10193_afii10089;
+} liga6;
+lookup liga7 {
+    sub [afii10073 afii10087]' @liga4 by [afii10073.init afii10087.init];
+    ignore sub @liga2' @liga4;
+    sub @liga2' by [afii10065.end afii10067.end afii10069.end afii10070.end afii10072.end afii10073.end afii10074.end afii10075.end afii10076.end afii10077.end afii10078.end afii10079.end afii10080.end afii10081.end afii10083.end afii10084.end afii10085.end afii10087.end afii10089.end afii10090.end afii10093.end afii10096.end afii10097.end afii10071.end afii10102.end afii10103.end afii10105.end afii10065_afii10087.liga afii10065_afii10089.liga afii10066_afii10072.liga afii10066_afii10103.liga afii10066_afii10104.liga afii10066_afii10105.liga afii10066_afii10110.liga afii10066_afii10071.liga afii10066_afii10075.liga afii10067_afii10072.liga afii10067_afii10073.liga afii10067_afii10087.liga afii10068_afii10073.liga afii10068_afii10087.liga afii10068_afii10089.liga afii10100_afii10073.liga afii10100_afii10087.liga afii10100_afii10089.liga afii10069_afii10089.liga afii10069_afii10105.liga afii10071_afii10073.liga afii10070_afii10089.liga afii10071_afii10089.liga afii10072_afii10089.liga afii10074_afii10089.liga afii10075_afii10089.liga afii10070_afii10073.liga afii10076_afii10089.liga afii10109_afii10089.liga afii10077_afii10089.liga afii10078_afii10089.liga afii10079_afii10089.liga afii10080_afii10072.liga afii10096_afii10072.liga afii10080_afii10073.liga afii10096_afii10073.liga afii10080_afii10077.liga afii10096_afii10077.liga afii10080_afii10078.liga afii10096_afii10078.liga afii10096_afii10087.liga afii10081_afii10089.liga afii10083_afii10073.liga afii10085_afii10105.liga afii10101_afii10073.liga afii10101_afii10087.liga afii10083_afii10089.liga afii10101_afii10089.liga afii10084_afii10089.liga afii10110_afii10105.liga afii10085_afii10089.liga afii10110_afii10089.liga afii10087_afii10089.liga afii10089_afii10089.liga afii10090_afii10089.liga afii10093_afii10089.liga afii10103_afii10089.liga afii10104_afii10089.liga afii10104_afii10104.liga afii10108_afii10105.liga afii10108_afii10089.liga afii10105_afii10105.liga afii10105_afii10089.liga afii10073_afii10073.liga afii10073_afii10087.liga afii10073_afii10089.liga afii10193_afii10089.liga afii10095_afii10073.liga afii10097_afii10089.liga afii10070_afii10087.liga afii10071_afii10087.liga afii10080_afii10087.liga afii10082_afii10073.liga afii10083_afii10087.liga afii10086_afii10073.liga];
+} liga7;
+ script cyrl; # Cyrillic
+lookup liga6;
+lookup liga7;
+} liga;
+
+feature salt {
+ # Stylistic Alternates
+ # Latin
+    sub @aalt1 by @aalt2;
+} salt;
+
