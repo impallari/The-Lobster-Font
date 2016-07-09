@@ -10,4 +10,4 @@ The latest version (currently v1.7) of The Lobster Font.
 
 ## Authors
 
-[Pablo Impallari](http://www.impallari.com). Cyrillic by [Alexei Vanyashin](http://www.cyreal.org/)
+[Pablo Impallari](http://www.impallari.com). Cyrillic by [Alexei Vanyashin](http://www.cyreal.org/),and Gayaneh Badgasaryan.
