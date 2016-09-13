@@ -1110,11 +1110,48 @@ value = IMPA;
 name = fsType;
 value = (
 );
+},
+{
+name = panose;
+value = (
+0,
+0,
+5,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = codePageRanges;
+value = (
+1252,
+1250,
+1251,
+1254,
+1257,
+1258
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+2,
+9,
+29,
+32
+);
 }
 );
 date = "2016-07-13 18:48:44 +0000";
-designer = "Pablo Impallari";
-designerURL = www.impallari.com;
+designer = "Impallari Type";
+designerURL = "http://www.impallari.com";
 familyName = Lobster;
 featurePrefixes = (
 {
@@ -145616,8 +145653,8 @@ zero = 9.76562;
 };
 };
 };
-manufacturer = "Pablo Impallari";
-manufacturerURL = www.impallari.com;
+manufacturer = "Impallari Type";
+manufacturerURL = "http://www.impallari.com";
 unitsPerEm = 1000;
 versionMajor = 1;
 versionMinor = 7;
