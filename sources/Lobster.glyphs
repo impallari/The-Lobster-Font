@@ -179,36 +179,36 @@ ascender = 700;
 capHeight = 748;
 customParameters = (
 {
-name = winAscent;
-value = 1250;
-},
-{
 name = typoAscender;
-value = 1250;
-},
-{
-name = hheaAscender;
-value = 1250;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -540;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1000;
 },
 {
 name = hheaDescender;
-value = -540;
-},
-{
-name = winDescent;
-value = 540;
+value = -250;
 },
 {
 name = hheaLineGap;
 value = 0;
 },
 {
-name = typoLineGap;
-value = 0;
+name = winAscent;
+value = 1000;
+},
+{
+name = winDescent;
+value = 513;
 }
 );
 descender = -250;
@@ -90285,7 +90285,7 @@ unicode = 04AB;
 {
 color = 4;
 glyphname = "ustrait-cy";
-lastChange = "2016-09-22 18:52:58 +0000";
+lastChange = "2016-09-22 18:54:22 +0000";
 layers = (
 {
 anchors = (
@@ -90401,56 +90401,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"258 -6 OFFCURVE",
-"351 24 OFFCURVE",
-"404 179 CURVE",
-"362 179 LINE",
-"347 128 OFFCURVE",
-"311 91 OFFCURVE",
-"272 91 CURVE SMOOTH",
-"237 91 OFFCURVE",
-"218 113 OFFCURVE",
-"210 178 CURVE SMOOTH",
-"201 248 LINE",
-"294 349 OFFCURVE",
-"340 403 OFFCURVE",
-"340 466 CURVE SMOOTH",
-"340 510 OFFCURVE",
-"321 557 OFFCURVE",
-"284 557 CURVE SMOOTH",
-"248 557 OFFCURVE",
-"216 543 OFFCURVE",
-"216 508 CURVE SMOOTH",
-"216 477 OFFCURVE",
-"228 452 OFFCURVE",
-"263 452 CURVE SMOOTH",
-"268 452 OFFCURVE",
-"273 453 OFFCURVE",
-"280 454 CURVE",
-"277 417 OFFCURVE",
-"249 373 OFFCURVE",
-"193 310 CURVE",
-"184 386 LINE",
-"179 437 OFFCURVE",
-"156 505 OFFCURVE",
-"76 505 CURVE SMOOTH",
-"-59 505 OFFCURVE",
-"-128 327 OFFCURVE",
-"-160 179 CURVE",
-"-118 179 LINE",
-"-83 344 OFFCURVE",
-"-23 423 OFFCURVE",
-"16 423 CURVE SMOOTH",
-"33 423 OFFCURVE",
-"43 407 OFFCURVE",
-"54 340 CURVE",
-"70 228 LINE",
-"-132 0 LINE",
-"-60 0 LINE",
-"78 168 LINE",
-"98 45 OFFCURVE",
-"140 -6 OFFCURVE",
-"200 -6 CURVE SMOOTH"
+"399 477 OFFCURVE",
+"384 520 OFFCURVE",
+"336 520 CURVE SMOOTH",
+"293 520 OFFCURVE",
+"274 497 OFFCURVE",
+"274 466 CURVE SMOOTH",
+"274 443 OFFCURVE",
+"286 415 OFFCURVE",
+"310 415 CURVE SMOOTH",
+"318 415 OFFCURVE",
+"339 418 OFFCURVE",
+"342 425 CURVE",
+"342 325 OFFCURVE",
+"258 130 OFFCURVE",
+"172 96 CURVE",
+"212 500 LINE",
+"68 500 LINE",
+"-7 -250 LINE",
+"144 -214 LINE",
+"168 0 LINE",
+"168 9 LINE",
+"316 67 OFFCURVE",
+"399 295 OFFCURVE",
+"399 433 CURVE SMOOTH"
 );
 }
 );
@@ -141610,7 +141584,7 @@ unicode = 20B8;
 {
 color = 4;
 glyphname = tugrik;
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-22 18:58:46 +0000";
 layers = (
 {
 background = {
@@ -141645,19 +141619,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"476 258 LINE",
-"490 313 LINE",
-"93 233 LINE",
-"79 178 LINE"
+"466 258 LINE",
+"480 313 LINE",
+"83 233 LINE",
+"69 178 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"501 374 LINE",
-"515 429 LINE",
-"118 349 LINE",
-"104 294 LINE"
+"491 374 LINE",
+"505 429 LINE",
+"108 349 LINE",
+"94 294 LINE"
 );
 }
 );
@@ -148505,38 +148479,6 @@ value = "Lobster Regular";
 {
 name = postscriptFullName;
 value = "Lobster Regular";
-},
-{
-name = typoAscender;
-value = 1000;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 1000;
-},
-{
-name = hheaDescender;
-value = -250;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1000;
-},
-{
-name = winDescent;
-value = 250;
 }
 );
 instanceInterpolations = {
