@@ -39,6 +39,11 @@ name = aalt1;
 {
 code = "A.salt B.salt E.salt N.salt k.salt p.salt";
 name = aalt2;
+},
+{
+automatic = 1;
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat Ddotbelow E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Etilde F G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lslash M Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow A.salt B.salt E.salt N.salt A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy Pedescender-cy Esdescender-cy Ustrait-cy Ustraitstroke-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Zhebreve-cy Chekhakassian-cy Abreve-cy Adieresis-cy Iebreve-cy Schwa-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Qa-cy We-cy Ef-cy.loclBGR Ghestroke-cy.loclBSH Esdescender-cy.loclCHU Ii-cy.loclSRB Iishort-cy.loclSRB Delta Omega";
+name = Uppercase;
 }
 );
 copyright = "Copyright (c) 2010, The Lobster Font Authors (impallari@gmail.com)";
@@ -112,7 +117,7 @@ familyName = Lobster;
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012languagesystem cyrl dflt;\012languagesystem latn dflt;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012";
+code = "languagesystem DFLT dflt;\012languagesystem cyrl dflt;\012languagesystem latn dflt;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012languagesystem cyrl MKD;\012languagesystem cyrl BGR;\012languagesystem cyrl SRB;\012";
 name = Languagesystems;
 }
 );
@@ -135,12 +140,12 @@ name = salt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_latn_1 {\012	script latn;\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} ccmp_latn_1;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [brevecomb-cy];\012	@MarkscombCase = [brevecomb-cy.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012";
 name = ccmp;
 },
 {
 automatic = 1;
-code = "script latn;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012";
+code = "script latn;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012\012script cyrl;\012language MKD;\012sub gje-cy by gje-cy.loclMKD;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012language BGR;\012sub Ef-cy by Ef-cy.loclBGR;\012sub zhe-cy by zhe-cy.loclBGR;\012sub ka-cy by ka-cy.loclBGR;\012sub iu-cy by iu-cy.loclBGR;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;\012language SRB;\012sub Ii-cy by Ii-cy.loclSRB;\012sub Iishort-cy by Iishort-cy.loclSRB;\012sub ge-cy by ge-cy.loclSRB;\012sub pe-cy by pe-cy.loclSRB;\012sub te-cy by te-cy.loclSRB;\012";
 name = locl;
 },
 {
@@ -160,12 +165,17 @@ name = ordn;
 },
 {
 automatic = 1;
+code = "sub brevecomb-cy by brevecomb-cy.case;\012";
+name = case;
+},
+{
+automatic = 1;
 code = "sub ze-cy by ze-cy.init;\012sub ha-cy by ha-cy.init;\012";
 name = init;
 },
 {
 automatic = 1;
-code = "sub b s x by b_s_x;\012sub b s z by b_s_z;\012sub f f t by f_f_t;\012sub f i x by f_i_x;\012sub f i z by f_i_z;\012sub f l x by f_l_x;\012sub f l z by f_l_z;\012sub o s x by o_s_x;\012sub o s z by o_s_z;\012sub oacute s x by oacute_s_x;\012sub oacute s z by oacute_s_z;\012sub E x by E_x;\012sub F i by F_i;\012sub T h by T_h;\012sub T i by T_i;\012sub a x by a_x;\012sub a.end x.end by a_x.end;\012sub a z by a_z;\012sub b s by b_s;\012sub c x by c_x;\012sub c z by c_z;\012sub e x by e_x;\012sub e.end x.end by e_x.end;\012sub e z by e_z;\012sub eacute x by eacute_x;\012sub f t by f_t;\012sub f u by f_u;\012sub f x by f_x;\012sub g p by g_p;\012sub g x by g_x;\012sub g z by g_z;\012sub i x by i_x;\012sub i.end x.end by i_x.end;\012sub i z by i_z;\012sub iacute x by iacute_x;\012sub iacute z by iacute_z;\012sub j x by j_x;\012sub j z by j_z;\012sub l x by l_x;\012sub l z by l_z;\012sub m x by m_x;\012sub m z by m_z;\012sub n z by n_z;\012sub o ae by o_ae;\012sub o s by o_s;\012sub o.end s.end by o_s.end;\012sub o x by o_x;\012sub oacute s by oacute_s;\012sub oacute.end s.end by oacute_s.end;\012sub oacute x by oacute_x;\012sub r x by r_x;\012sub r z by r_z;\012sub s x by s_x;\012sub s z by s_z;\012sub t x by t_x;\012sub t z by t_z;\012sub u v by u_v;\012sub u x by u_x;\012sub u.end x.end by u_x.end;\012sub y p by y_p;\012sub y x by y_x;\012sub y z by y_z;\012sub Ie-cy ze-cy by Ie_ze-cy;\012sub Ie-cy ha-cy by Ie_ha-cy;\012sub Io-cy ze-cy by Io_ze-cy;\012sub Io-cy ha-cy by Io_ha-cy;\012sub Es-cy ze-cy by Es_ze-cy;\012sub Es-cy ha-cy by Es_ha-cy;\012sub E-cy ze-cy by E_ze-cy;\012sub E-cy ha-cy by E_ha-cy;\012sub a-cy ha-cy by a_ha-cy;\012sub a-cy che-cy by a_che-cy;\012sub be-cy ge-cy by be_ge-cy;\012sub be-cy gje-cy by be_gje-cy;\012sub be-cy io-cy by be_io-cy;\012sub be-cy zhe-cy by be_zhe-cy;\012sub be-cy iishort-cy by be_iishort-cy;\012sub be-cy ushort-cy by be_ushort-cy;\012sub be-cy ereversed-cy by be_ereversed-cy;\012sub be-cy i-cy by be_i-cy;\012sub be-cy yi-cy by be_yi-cy;\012sub be-cy je-cy by be_je-cy;\012sub ve-cy ge-cy by ve_ge-cy;\012sub ve-cy gje-cy by ve_gje-cy;\012sub ve-cy zhe-cy by ve_zhe-cy;\012sub ve-cy ze-cy by ve_ze-cy;\012sub ve-cy ha-cy by ve_ha-cy;\012sub ge-cy ze-cy by ge_ze-cy;\012sub ge-cy ha-cy by ge_ha-cy;\012sub ge-cy che-cy by ge_che-cy;\012sub gje-cy ze-cy by gje_ze-cy;\012sub gje-cy ha-cy by gje_ha-cy;\012sub gje-cy che-cy by gje_che-cy;\012sub de-cy che-cy by de_che-cy;\012sub de-cy je-cy by de_je-cy;\012sub ie-cy ze-cy by ie_ze-cy;\012sub ie-cy ha-cy by ie_ha-cy;\012sub ie-cy che-cy by ie_che-cy;\012sub io-cy ze-cy by io_ze-cy;\012sub io-cy ha-cy by io_ha-cy;\012sub io-cy che-cy by io_che-cy;\012sub zhe-cy che-cy by zhe_che-cy;\012sub ze-cy ze-cy by ze_ze-cy;\012sub ze-cy ha-cy by ze_ha-cy;\012sub ze-cy che-cy by ze_che-cy;\012sub ii-cy che-cy by ii_che-cy;\012sub iishort-cy che-cy by iishort_che-cy;\012sub ka-cy che-cy by ka_che-cy;\012sub kje-cy che-cy by kje_che-cy;\012sub el-cy che-cy by el_che-cy;\012sub em-cy che-cy by em_che-cy;\012sub en-cy che-cy by en_che-cy;\012sub o-cy ge-cy by o_ge-cy;\012sub o-cy gje-cy by o_gje-cy;\012sub o-cy zhe-cy by o_zhe-cy;\012sub o-cy ze-cy by o_ze-cy;\012sub o-cy el-cy by o_el-cy;\012sub o-cy em-cy by o_em-cy;\012sub o-cy ha-cy by o_ha-cy;\012sub o-cy lje-cy by o_lje-cy;\012sub o-cy ereversed-cy by o_ereversed-cy;\012sub pe-cy che-cy by pe_che-cy;\012sub er-cy ze-cy by er_ze-cy;\012sub es-cy ze-cy by es_ze-cy;\012sub es-cy ha-cy by es_ha-cy;\012sub es-cy che-cy by es_che-cy;\012sub es-cy hardsign-cy by es_hardsign-cy;\012sub te-cy che-cy by te_che-cy;\012sub u-cy che-cy by u_che-cy;\012sub u-cy je-cy by u_je-cy;\012sub ushort-cy che-cy by ushort_che-cy;\012sub ushort-cy je-cy by ushort_je-cy;\012sub ef-cy ze-cy by ef_ze-cy;\012sub ha-cy che-cy by ha_che-cy;\012sub ha-cy hardsign-cy by ha_hardsign-cy;\012sub che-cy che-cy by che_che-cy;\012sub sha-cy che-cy by sha_che-cy;\012sub dzhe-cy che-cy by dzhe_che-cy;\012sub yeru-cy che-cy by yeru_che-cy;\012sub e-cy ze-cy by e_ze-cy;\012sub e-cy ha-cy by e_ha-cy;\012sub e-cy che-cy by e_che-cy;\012sub ereversed-cy ze-cy by ereversed_ze-cy;\012sub i-cy che-cy by i_che-cy;\012sub yi-cy che-cy by yi_che-cy;\012sub yi-cy yi-cy by yi_yi-cy;\012sub je-cy che-cy by je_che-cy;\012sub je-cy je-cy by je_je-cy;\012sub tshe-cy che-cy by tshe_che-cy;\012sub tshe-cy je-cy by tshe_je-cy;\012sub iu-cy ge-cy by iu_ge-cy;\012sub iu-cy gje-cy by iu_gje-cy;\012sub iu-cy zhe-cy by iu_zhe-cy;\012sub iu-cy ze-cy by iu_ze-cy;\012sub iu-cy el-cy by iu_el-cy;\012sub iu-cy em-cy by iu_em-cy;\012sub iu-cy ha-cy by iu_ha-cy;\012sub iu-cy lje-cy by iu_lje-cy;\012sub iu-cy ereversed-cy by iu_ereversed-cy;\012sub ia-cy che-cy by ia_che-cy;\012sub f i by fi.end;\012sub f l by fl.end;\012";
+code = "sub b s x by b_s_x;\012sub b s z by b_s_z;\012sub f f t by f_f_t;\012sub f i x by f_i_x;\012sub f i z by f_i_z;\012sub f l x by f_l_x;\012sub f l z by f_l_z;\012sub o s x by o_s_x;\012sub o s z by o_s_z;\012sub oacute s x by oacute_s_x;\012sub oacute s z by oacute_s_z;\012sub E x by E_x;\012sub F i by F_i;\012sub T h by T_h;\012sub T i by T_i;\012sub a x by a_x;\012sub a z by a_z;\012sub b s by b_s;\012sub c x by c_x;\012sub c z by c_z;\012sub e x by e_x;\012sub e z by e_z;\012sub eacute x by eacute_x;\012sub f t by f_t;\012sub f u by f_u;\012sub f x by f_x;\012sub g p by g_p;\012sub g x by g_x;\012sub g z by g_z;\012sub i x by i_x;\012sub i z by i_z;\012sub iacute x by iacute_x;\012sub iacute z by iacute_z;\012sub j x by j_x;\012sub j z by j_z;\012sub l x by l_x;\012sub l z by l_z;\012sub m x by m_x;\012sub m z by m_z;\012sub n z by n_z;\012sub o ae by o_ae;\012sub o s by o_s;\012sub o x by o_x;\012sub oacute s by oacute_s;\012sub oacute x by oacute_x;\012sub r x by r_x;\012sub r z by r_z;\012sub s x by s_x;\012sub s z by s_z;\012sub t x by t_x;\012sub t z by t_z;\012sub u v by u_v;\012sub u x by u_x;\012sub y p by y_p;\012sub y x by y_x;\012sub y z by y_z;\012sub a.end x.end by a_x.end;\012sub e.end x.end by e_x.end;\012sub i.end x.end by i_x.end;\012sub o.end s.end by o_s.end;\012sub oacute.end s.end by oacute_s.end;\012sub u.end x.end by u_x.end;\012sub Ie-cy ze-cy by Ie_ze-cy;\012sub Ie-cy ha-cy by Ie_ha-cy;\012sub Io-cy ze-cy by Io_ze-cy;\012sub Io-cy ha-cy by Io_ha-cy;\012sub Es-cy ze-cy by Es_ze-cy;\012sub Es-cy ha-cy by Es_ha-cy;\012sub E-cy ze-cy by E_ze-cy;\012sub E-cy ha-cy by E_ha-cy;\012sub a-cy ha-cy by a_ha-cy;\012sub a-cy che-cy by a_che-cy;\012sub be-cy ge-cy by be_ge-cy;\012sub be-cy gje-cy by be_gje-cy;\012sub be-cy io-cy by be_io-cy;\012sub be-cy zhe-cy by be_zhe-cy;\012sub be-cy iishort-cy by be_iishort-cy;\012sub be-cy ushort-cy by be_ushort-cy;\012sub be-cy ereversed-cy by be_ereversed-cy;\012sub be-cy i-cy by be_i-cy;\012sub be-cy yi-cy by be_yi-cy;\012sub be-cy je-cy by be_je-cy;\012sub ve-cy ge-cy by ve_ge-cy;\012sub ve-cy gje-cy by ve_gje-cy;\012sub ve-cy zhe-cy by ve_zhe-cy;\012sub ve-cy ze-cy by ve_ze-cy;\012sub ve-cy ha-cy by ve_ha-cy;\012sub ge-cy ze-cy by ge_ze-cy;\012sub ge-cy ha-cy by ge_ha-cy;\012sub ge-cy che-cy by ge_che-cy;\012sub gje-cy ze-cy by gje_ze-cy;\012sub gje-cy ha-cy by gje_ha-cy;\012sub gje-cy che-cy by gje_che-cy;\012sub de-cy che-cy by de_che-cy;\012sub de-cy je-cy by de_je-cy;\012sub ie-cy ze-cy by ie_ze-cy;\012sub ie-cy ha-cy by ie_ha-cy;\012sub ie-cy che-cy by ie_che-cy;\012sub io-cy ze-cy by io_ze-cy;\012sub io-cy ha-cy by io_ha-cy;\012sub io-cy che-cy by io_che-cy;\012sub zhe-cy che-cy by zhe_che-cy;\012sub ze-cy ze-cy by ze_ze-cy;\012sub ze-cy ha-cy by ze_ha-cy;\012sub ze-cy che-cy by ze_che-cy;\012sub ii-cy che-cy by ii_che-cy;\012sub iishort-cy che-cy by iishort_che-cy;\012sub ka-cy che-cy by ka_che-cy;\012sub kje-cy che-cy by kje_che-cy;\012sub el-cy che-cy by el_che-cy;\012sub em-cy che-cy by em_che-cy;\012sub en-cy che-cy by en_che-cy;\012sub o-cy ge-cy by o_ge-cy;\012sub o-cy gje-cy by o_gje-cy;\012sub o-cy zhe-cy by o_zhe-cy;\012sub o-cy ze-cy by o_ze-cy;\012sub o-cy el-cy by o_el-cy;\012sub o-cy em-cy by o_em-cy;\012sub o-cy ha-cy by o_ha-cy;\012sub o-cy lje-cy by o_lje-cy;\012sub o-cy ereversed-cy by o_ereversed-cy;\012sub pe-cy che-cy by pe_che-cy;\012sub er-cy ze-cy by er_ze-cy;\012sub es-cy ze-cy by es_ze-cy;\012sub es-cy ha-cy by es_ha-cy;\012sub es-cy che-cy by es_che-cy;\012sub es-cy hardsign-cy by es_hardsign-cy;\012sub te-cy che-cy by te_che-cy;\012sub u-cy che-cy by u_che-cy;\012sub u-cy je-cy by u_je-cy;\012sub ushort-cy che-cy by ushort_che-cy;\012sub ushort-cy je-cy by ushort_je-cy;\012sub ef-cy ze-cy by ef_ze-cy;\012sub ha-cy che-cy by ha_che-cy;\012sub ha-cy hardsign-cy by ha_hardsign-cy;\012sub che-cy che-cy by che_che-cy;\012sub sha-cy che-cy by sha_che-cy;\012sub dzhe-cy che-cy by dzhe_che-cy;\012sub yeru-cy che-cy by yeru_che-cy;\012sub e-cy ze-cy by e_ze-cy;\012sub e-cy ha-cy by e_ha-cy;\012sub e-cy che-cy by e_che-cy;\012sub ereversed-cy ze-cy by ereversed_ze-cy;\012sub i-cy che-cy by i_che-cy;\012sub yi-cy che-cy by yi_che-cy;\012sub yi-cy yi-cy by yi_yi-cy;\012sub je-cy che-cy by je_che-cy;\012sub je-cy je-cy by je_je-cy;\012sub tshe-cy che-cy by tshe_che-cy;\012sub tshe-cy je-cy by tshe_je-cy;\012sub iu-cy ge-cy by iu_ge-cy;\012sub iu-cy gje-cy by iu_gje-cy;\012sub iu-cy zhe-cy by iu_zhe-cy;\012sub iu-cy ze-cy by iu_ze-cy;\012sub iu-cy el-cy by iu_el-cy;\012sub iu-cy em-cy by iu_em-cy;\012sub iu-cy ha-cy by iu_ha-cy;\012sub iu-cy lje-cy by iu_lje-cy;\012sub iu-cy ereversed-cy by iu_ereversed-cy;\012sub ia-cy che-cy by ia_che-cy;\012sub f i by fi.end;\012sub f l by fl.end;\012sub En-cy Ge-cy by Enghe-cy;\012sub en-cy ge-cy by enghe-cy;\012";
 name = dlig;
 }
 );
@@ -84736,7 +84746,7 @@ unicode = 0434;
 {
 color = 4;
 glyphname = "ie-cy";
-lastChange = "2016-09-25 08:38:44 +0000";
+lastChange = "2016-09-26 19:43:40 +0000";
 layers = (
 {
 anchors = (
@@ -84745,54 +84755,6 @@ name = top;
 position = "{245, 500}";
 }
 );
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"384 179 LINE",
-"333 123 OFFCURVE",
-"286 78 OFFCURVE",
-"207 78 CURVE SMOOTH",
-"159 78 OFFCURVE",
-"135 94 OFFCURVE",
-"135 162 CURVE SMOOTH",
-"135 174 OFFCURVE",
-"136 187 OFFCURVE",
-"137 202 CURVE",
-"257 210 OFFCURVE",
-"367 297 OFFCURVE",
-"367 413 CURVE SMOOTH",
-"367 463 OFFCURVE",
-"346 509 OFFCURVE",
-"257 509 CURVE SMOOTH",
-"52 509 OFFCURVE",
-"-13 268 OFFCURVE",
-"-13 153 CURVE SMOOTH",
-"-13 40 OFFCURVE",
-"48 -6 OFFCURVE",
-"143 -6 CURVE SMOOTH",
-"275 -6 OFFCURVE",
-"362 86 OFFCURVE",
-"418 179 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"164 349 OFFCURVE",
-"215 456 OFFCURVE",
-"265 456 CURVE SMOOTH",
-"284 456 OFFCURVE",
-"290 440 OFFCURVE",
-"290 415 CURVE SMOOTH",
-"290 332 OFFCURVE",
-"221 255 OFFCURVE",
-"145 250 CURVE"
-);
-}
-);
-};
 components = (
 {
 name = e;
@@ -86385,7 +86347,7 @@ unicode = 0440;
 {
 color = 4;
 glyphname = "es-cy";
-lastChange = "2016-09-25 08:38:44 +0000";
+lastChange = "2016-09-26 19:43:52 +0000";
 layers = (
 {
 anchors = (
@@ -86447,7 +86409,7 @@ width = 384;
 }
 );
 leftKerningGroup = lc_Round;
-rightKerningGroup = lc_c;
+rightKerningGroup = lc_e;
 unicode = 0441;
 },
 {
@@ -88698,7 +88660,7 @@ unicode = 045A;
 {
 color = 4;
 glyphname = "dze-cy";
-lastChange = "2016-09-26 19:32:06 +0000";
+lastChange = "2016-09-26 19:50:53 +0000";
 layers = (
 {
 background = {
@@ -88771,6 +88733,8 @@ layerId = UUID0;
 width = 382;
 }
 );
+leftKerningGroup = lc_s;
+rightKerningGroup = lc_s;
 unicode = 0455;
 },
 {
@@ -88996,7 +88960,7 @@ unicode = 044D;
 {
 color = 5;
 glyphname = "i-cy";
-lastChange = "2016-09-25 08:49:14 +0000";
+lastChange = "2016-09-26 19:51:48 +0000";
 layers = (
 {
 background = {
@@ -89056,14 +89020,14 @@ layerId = UUID0;
 width = 267;
 }
 );
-leftKerningGroup = lc_i;
+leftKerningGroup = lc_idot;
 rightKerningGroup = lc_lowconnect;
 unicode = 0456;
 },
 {
 color = 5;
 glyphname = "yi-cy";
-lastChange = "2016-09-26 19:32:16 +0000";
+lastChange = "2016-09-26 19:51:52 +0000";
 layers = (
 {
 background = {
@@ -89198,14 +89162,14 @@ nodes = (
 width = 267;
 }
 );
-leftKerningGroup = lc_i;
+leftKerningGroup = lc_idot;
 rightKerningGroup = lc_lowconnect;
 unicode = 0457;
 },
 {
 color = 5;
 glyphname = "je-cy";
-lastChange = "2016-09-25 08:49:14 +0000";
+lastChange = "2016-09-26 19:52:51 +0000";
 layers = (
 {
 background = {
@@ -89278,6 +89242,7 @@ layerId = UUID0;
 width = 240;
 }
 );
+leftKerningGroup = lc_j;
 rightKerningGroup = lc_lowconnect;
 unicode = 0458;
 },
@@ -89544,7 +89509,7 @@ unicode = 044E;
 {
 color = 5;
 glyphname = "ia-cy";
-lastChange = "2016-09-25 08:49:14 +0000";
+lastChange = "2016-09-26 19:53:14 +0000";
 layers = (
 {
 background = {
@@ -89701,6 +89666,7 @@ nodes = (
 width = 527;
 }
 );
+leftKerningGroup = lc_ia;
 rightKerningGroup = lc_lowconnect;
 unicode = 044F;
 },
@@ -91513,7 +91479,7 @@ unicode = 04F5;
 {
 color = 4;
 glyphname = "gedescender-cy";
-lastChange = "2016-09-25 07:15:47 +0000";
+lastChange = "2016-09-26 19:47:44 +0000";
 layers = (
 {
 components = (
@@ -91529,7 +91495,9 @@ layerId = UUID0;
 width = 375;
 }
 );
+leftKerningGroup = lc_ge;
 leftMetricsKey = "ge-cy";
+rightKerningGroup = lc_ge;
 rightMetricsKey = "ge-cy";
 unicode = 04F7;
 },
@@ -91560,7 +91528,7 @@ unicode = 04F9;
 {
 color = 4;
 glyphname = "qa-cy";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:42:59 +0000";
 layers = (
 {
 components = (
@@ -91572,12 +91540,14 @@ layerId = UUID0;
 width = 486;
 }
 );
+leftKerningGroup = lc_Round;
+rightKerningGroup = lc_stemlong;
 unicode = 051B;
 },
 {
 color = 4;
 glyphname = "we-cy";
-lastChange = "2016-09-25 08:38:44 +0000";
+lastChange = "2016-09-26 19:46:30 +0000";
 layers = (
 {
 components = (
@@ -91589,13 +91559,13 @@ layerId = UUID0;
 width = 661;
 }
 );
-leftKerningGroup = lc_vwy;
+leftKerningGroup = lc_i;
 unicode = 051D;
 },
 {
 color = 4;
 glyphname = "a-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:39:55 +0000";
 layers = (
 {
 background = {
@@ -91716,11 +91686,12 @@ nodes = (
 width = 467;
 }
 );
+leftKerningGroup = lc_Round;
 },
 {
 color = 4;
 glyphname = "ve-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:49:25 +0000";
 layers = (
 {
 background = {
@@ -91843,11 +91814,12 @@ nodes = (
 width = 406;
 }
 );
+leftKerningGroup = "lc_ve-cy";
 },
 {
 color = 4;
 glyphname = "de-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:42:59 +0000";
 layers = (
 {
 background = {
@@ -91988,11 +91960,13 @@ nodes = (
 width = 480;
 }
 );
+leftKerningGroup = lc_Round;
+rightKerningGroup = lc_stemlong;
 },
 {
 color = 4;
 glyphname = "ie-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:39:55 +0000";
 layers = (
 {
 background = {
@@ -92091,11 +92065,12 @@ nodes = (
 width = 366;
 }
 );
+leftKerningGroup = lc_Round;
 },
 {
 color = 4;
 glyphname = "io-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:39:55 +0000";
 layers = (
 {
 background = {
@@ -92262,11 +92237,12 @@ nodes = (
 width = 366;
 }
 );
+leftKerningGroup = lc_Round;
 },
 {
 color = 4;
 glyphname = "zhe-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:47:32 +0000";
 layers = (
 {
 background = {
@@ -92455,11 +92431,12 @@ nodes = (
 width = 848;
 }
 );
+leftKerningGroup = lc_zhe;
 },
 {
 color = 4;
 glyphname = "ze-cy.end";
-lastChange = "2016-09-26 19:35:01 +0000";
+lastChange = "2016-09-26 19:48:33 +0000";
 layers = (
 {
 background = {
@@ -92584,11 +92561,12 @@ nodes = (
 width = 426;
 }
 );
+leftKerningGroup = lc_ze;
 },
 {
 color = 4;
 glyphname = "ii-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:46:39 +0000";
 layers = (
 {
 background = {
@@ -92689,11 +92667,13 @@ nodes = (
 width = 459;
 }
 );
+leftKerningGroup = lc_i;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "iishort-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:49:44 +0000";
 layers = (
 {
 background = {
@@ -92848,11 +92828,13 @@ nodes = (
 width = 459;
 }
 );
+leftKerningGroup = lc_i;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "ka-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:49:50 +0000";
 layers = (
 {
 background = {
@@ -92975,11 +92957,12 @@ nodes = (
 width = 501;
 }
 );
+leftKerningGroup = lc_i;
 },
 {
 color = 4;
 glyphname = "el-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:49:58 +0000";
 layers = (
 {
 background = {
@@ -93098,11 +93081,13 @@ nodes = (
 width = 511;
 }
 );
+leftKerningGroup = lc_el;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "em-cy.end";
-lastChange = "2016-09-26 19:37:06 +0000";
+lastChange = "2016-09-26 19:50:03 +0000";
 layers = (
 {
 background = {
@@ -93345,11 +93330,13 @@ nodes = (
 width = 726;
 }
 );
+leftKerningGroup = lc_el;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "en-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:46:44 +0000";
 layers = (
 {
 background = {
@@ -93428,11 +93415,13 @@ nodes = (
 width = 460;
 }
 );
+leftKerningGroup = lc_i;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "o-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:53:52 +0000";
 layers = (
 {
 background = {
@@ -93513,11 +93502,13 @@ nodes = (
 width = 439;
 }
 );
+leftKerningGroup = lc_Round;
+rightKerningGroup = lc_Roundend;
 },
 {
 color = 4;
 glyphname = "pe-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:46:49 +0000";
 layers = (
 {
 background = {
@@ -93610,11 +93601,13 @@ nodes = (
 width = 454;
 }
 );
+leftKerningGroup = lc_i;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "es-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:39:55 +0000";
 layers = (
 {
 background = {
@@ -93703,11 +93696,12 @@ nodes = (
 width = 341;
 }
 );
+leftKerningGroup = lc_Round;
 },
 {
 color = 4;
 glyphname = "te-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:47:03 +0000";
 layers = (
 {
 background = {
@@ -93836,11 +93830,13 @@ nodes = (
 width = 701;
 }
 );
+leftKerningGroup = lc_i;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "u-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:47:03 +0000";
 layers = (
 {
 background = {
@@ -93961,11 +93957,12 @@ nodes = (
 width = 460;
 }
 );
+leftKerningGroup = lc_i;
 },
 {
 color = 4;
 glyphname = "ha-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:50:27 +0000";
 layers = (
 {
 background = {
@@ -94086,11 +94083,12 @@ nodes = (
 width = 500;
 }
 );
+leftKerningGroup = lc_x;
 },
 {
 color = 4;
 glyphname = "che-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:50:35 +0000";
 layers = (
 {
 background = {
@@ -94199,11 +94197,13 @@ nodes = (
 width = 459;
 }
 );
+leftKerningGroup = lc_che;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "sha-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:47:03 +0000";
 layers = (
 {
 background = {
@@ -94340,11 +94340,13 @@ nodes = (
 width = 706;
 }
 );
+leftKerningGroup = lc_i;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "yeru-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:47:03 +0000";
 layers = (
 {
 background = {
@@ -94499,11 +94501,13 @@ nodes = (
 width = 608;
 }
 );
+leftKerningGroup = lc_i;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "dze-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:51:03 +0000";
 layers = (
 {
 background = {
@@ -94610,11 +94614,12 @@ nodes = (
 width = 316;
 }
 );
+leftKerningGroup = lc_s;
 },
 {
 color = 4;
 glyphname = "i-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:51:59 +0000";
 layers = (
 {
 background = {
@@ -94713,11 +94718,135 @@ nodes = (
 width = 209;
 }
 );
+leftKerningGroup = lc_idot;
+rightKerningGroup = lc_end;
+},
+{
+color = 5;
+glyphname = "yi-cy.end";
+lastChange = "2016-09-26 19:52:33 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"152 -6 OFFCURVE",
+"204 26 OFFCURVE",
+"209 97 CURVE",
+"202 94 OFFCURVE",
+"196 91 OFFCURVE",
+"177 91 CURVE SMOOTH",
+"149 91 OFFCURVE",
+"136 100 OFFCURVE",
+"136 128 CURVE SMOOTH",
+"136 138 OFFCURVE",
+"137 149 OFFCURVE",
+"140 160 CURVE",
+"212 500 LINE",
+"68 500 LINE",
+"0 179 LINE SMOOTH",
+"-5 154 OFFCURVE",
+"-8 132 OFFCURVE",
+"-8 114 CURVE SMOOTH",
+"-8 30 OFFCURVE",
+"39 -6 OFFCURVE",
+"99 -6 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"211 554 OFFCURVE",
+"247 589 OFFCURVE",
+"247 633 CURVE SMOOTH",
+"247 677 OFFCURVE",
+"211 713 OFFCURVE",
+"167 713 CURVE SMOOTH",
+"123 713 OFFCURVE",
+"88 677 OFFCURVE",
+"88 633 CURVE SMOOTH",
+"88 589 OFFCURVE",
+"123 554 OFFCURVE",
+"167 554 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"110 573 OFFCURVE",
+"138 599 OFFCURVE",
+"138 634 CURVE SMOOTH",
+"138 667 OFFCURVE",
+"110 695 OFFCURVE",
+"77 695 CURVE SMOOTH",
+"42 695 OFFCURVE",
+"16 667 OFFCURVE",
+"16 634 CURVE SMOOTH",
+"16 599 OFFCURVE",
+"42 573 OFFCURVE",
+"77 573 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"290 573 OFFCURVE",
+"318 599 OFFCURVE",
+"318 634 CURVE SMOOTH",
+"318 667 OFFCURVE",
+"290 695 OFFCURVE",
+"257 695 CURVE SMOOTH",
+"222 695 OFFCURVE",
+"196 667 OFFCURVE",
+"196 634 CURVE SMOOTH",
+"196 599 OFFCURVE",
+"222 573 OFFCURVE",
+"257 573 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"152 -6 OFFCURVE",
+"204 26 OFFCURVE",
+"209 97 CURVE",
+"202 94 OFFCURVE",
+"196 91 OFFCURVE",
+"177 91 CURVE SMOOTH",
+"149 91 OFFCURVE",
+"136 100 OFFCURVE",
+"136 128 CURVE SMOOTH",
+"136 138 OFFCURVE",
+"137 149 OFFCURVE",
+"140 160 CURVE",
+"212 500 LINE",
+"68 500 LINE",
+"0 179 LINE SMOOTH",
+"-5 154 OFFCURVE",
+"-8 132 OFFCURVE",
+"-8 114 CURVE SMOOTH",
+"-8 30 OFFCURVE",
+"39 -6 OFFCURVE",
+"99 -6 CURVE SMOOTH"
+);
+}
+);
+width = 209;
+}
+);
+leftKerningGroup = lc_idot;
+rightKerningGroup = lc_lowconnect;
 },
 {
 color = 4;
 glyphname = "je-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:52:57 +0000";
 layers = (
 {
 background = {
@@ -94828,11 +94957,12 @@ nodes = (
 width = 213;
 }
 );
+leftKerningGroup = lc_j;
 },
 {
 color = 4;
 glyphname = "iu-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:53:58 +0000";
 layers = (
 {
 background = {
@@ -94933,11 +95063,13 @@ nodes = (
 width = 675;
 }
 );
+leftKerningGroup = lc_i;
+rightKerningGroup = lc_Roundend;
 },
 {
 color = 4;
 glyphname = "ia-cy.end";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:53:17 +0000";
 layers = (
 {
 background = {
@@ -95092,11 +95224,13 @@ nodes = (
 width = 480;
 }
 );
+leftKerningGroup = lc_ia;
+rightKerningGroup = lc_end;
 },
 {
 color = 4;
 glyphname = "ze-cy.init";
-lastChange = "2016-09-25 08:49:39 +0000";
+lastChange = "2016-09-26 19:53:38 +0000";
 layers = (
 {
 background = {
@@ -95382,7 +95516,7 @@ rightKerningGroup = lc_lowconnect;
 {
 color = 4;
 glyphname = "zhe-cy.loclBGR";
-lastChange = "2016-09-25 08:49:39 +0000";
+lastChange = "2016-09-26 19:47:32 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -95480,7 +95614,8 @@ nodes = (
 width = 882;
 }
 );
-rightKerningGroup = lc_lowconnect;
+leftKerningGroup = lc_zhe;
+rightKerningGroup = lc_e;
 },
 {
 color = 4;
@@ -95502,7 +95637,7 @@ rightKerningGroup = lc_lowconnect;
 {
 color = 4;
 glyphname = "iu-cy.loclBGR";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:45:11 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -95572,11 +95707,12 @@ nodes = (
 width = 675;
 }
 );
+rightKerningGroup = lc_Round;
 },
 {
 color = 4;
 glyphname = "ghestroke-cy.loclBSH";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:47:03 +0000";
 layers = (
 {
 background = {
@@ -95695,12 +95831,13 @@ nodes = (
 width = 424;
 }
 );
+leftKerningGroup = lc_i;
 leftMetricsKey = n;
 },
 {
 color = 4;
 glyphname = "esdescender-cy.loclCHU";
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2016-09-26 19:54:16 +0000";
 layers = (
 {
 components = (
@@ -95712,11 +95849,13 @@ layerId = UUID0;
 width = 384;
 }
 );
+leftKerningGroup = lc_Round;
+rightKerningGroup = lc_e;
 },
 {
 color = 4;
 glyphname = "gje-cy.loclMKD";
-lastChange = "2016-09-25 08:49:32 +0000";
+lastChange = "2016-09-26 19:54:35 +0000";
 layers = (
 {
 components = (
@@ -95732,12 +95871,13 @@ layerId = UUID0;
 width = 267;
 }
 );
+leftKerningGroup = lc_i;
 rightKerningGroup = lc_lowconnect;
 },
 {
 color = 4;
 glyphname = "ge-cy.loclSRB";
-lastChange = "2016-09-25 08:49:32 +0000";
+lastChange = "2016-09-26 19:54:35 +0000";
 layers = (
 {
 anchors = (
@@ -95755,12 +95895,13 @@ layerId = UUID0;
 width = 267;
 }
 );
+leftKerningGroup = lc_i;
 rightKerningGroup = lc_lowconnect;
 },
 {
 color = 4;
 glyphname = "pe-cy.loclSRB";
-lastChange = "2016-09-25 08:49:32 +0000";
+lastChange = "2016-09-26 19:54:35 +0000";
 layers = (
 {
 components = (
@@ -95772,12 +95913,13 @@ layerId = UUID0;
 width = 505;
 }
 );
+leftKerningGroup = lc_i;
 rightKerningGroup = lc_lowconnect;
 },
 {
 color = 4;
 glyphname = "te-cy.loclSRB";
-lastChange = "2016-09-25 08:49:32 +0000";
+lastChange = "2016-09-26 19:54:35 +0000";
 layers = (
 {
 components = (
@@ -95800,6 +95942,7 @@ nodes = (
 width = 752;
 }
 );
+leftKerningGroup = lc_i;
 rightKerningGroup = lc_lowconnect;
 },
 {
