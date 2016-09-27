@@ -107,7 +107,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2016-09-20 06:36:12 +0000";
+date = "2016-09-27 22:01:43 +0000";
 designer = "Impallari Type";
 designerURL = "http://www.impallari.com";
 familyName = Lobster;
@@ -149534,20 +149534,58 @@ H = 26.8555;
 };
 "@MMK_L_lc_Round" = {
 "@MMK_R_UC_T" = 6;
-"@MMK_R_lc_hardsign" = 50;
-"@MMK_R_lc_ereversed" = 50;
-"@MMK_R_lc_zhe" = 40;
 "@MMK_R_lc_che" = -10;
+"@MMK_R_lc_ereversed" = 50;
+"@MMK_R_lc_hardsign" = 50;
 "@MMK_R_lc_x" = -113;
 "@MMK_R_lc_ze" = -112;
+"@MMK_R_lc_zhe" = 40;
+};
+"@MMK_L_lc_Roundnotail" = {
+"@MMK_R_lc_che" = -20;
+"@MMK_R_lc_el" = -20;
+"@MMK_R_lc_ze" = -106;
+};
+"@MMK_L_lc_ShortStem" = {
+"@MMK_R_lc_che" = -55;
+};
+"@MMK_L_lc_StemTooth" = {
+"@MMK_R_lc_che" = -50;
+"@MMK_R_lc_x" = -40;
+"@MMK_R_lc_ze" = -50;
+"@MMK_R_lc_zhe" = 20;
+};
+"@MMK_L_lc_c" = {
+"@MMK_R_lc_che" = 0;
+};
+"@MMK_L_lc_e" = {
+"@MMK_R_lc_che" = -53;
+"@MMK_R_lc_hardsign" = -1;
+};
+"@MMK_L_lc_ge" = {
+"@MMK_R_lc_che" = -54;
+};
+"@MMK_L_lc_k" = {
+"@MMK_R_lc_che" = -54;
+"@MMK_R_lc_hardsign" = -3;
+};
+"@MMK_L_lc_lowconnect" = {
+"@MMK_R_lc_che" = -54;
 };
 "@MMK_L_lc_softsign" = {
 "@MMK_R_UC_T" = -60;
-"@MMK_R_lc_zhe" = 20;
 "@MMK_R_lc_Round" = 20;
 "@MMK_R_lc_hardsign" = 10;
 "@MMK_R_lc_ia" = 10;
 "@MMK_R_lc_ze" = -88;
+"@MMK_R_lc_zhe" = 20;
+};
+"@MMK_L_lc_ze" = {
+"@MMK_R_lc_ge" = 50;
+"@MMK_R_lc_zhe" = 20;
+};
+"@MMK_L_lc_zhe" = {
+"@MMK_R_lc_ze" = 0;
 };
 "Be-cy" = {
 "@MMK_R_Dje-cy" = -17.0898;
@@ -149886,44 +149924,6 @@ six = 21.4844;
 three = 0;
 two = 7.8125;
 zero = 9.76562;
-};
-"@MMK_L_lc_StemTooth" = {
-"@MMK_R_lc_zhe" = 20;
-"@MMK_R_lc_che" = -50;
-"@MMK_R_lc_x" = -40;
-"@MMK_R_lc_ze" = -50;
-};
-"@MMK_L_lc_ze" = {
-"@MMK_R_lc_zhe" = 20;
-"@MMK_R_lc_ge" = 50;
-};
-"@MMK_L_lc_k" = {
-"@MMK_R_lc_hardsign" = -3;
-"@MMK_R_lc_che" = -54;
-};
-"@MMK_L_lc_e" = {
-"@MMK_R_lc_hardsign" = -1;
-"@MMK_R_lc_che" = -53;
-};
-"@MMK_L_lc_lowconnect" = {
-"@MMK_R_lc_che" = -54;
-};
-"@MMK_L_lc_c" = {
-"@MMK_R_lc_che" = 0;
-};
-"@MMK_L_lc_Roundnotail" = {
-"@MMK_R_lc_che" = -20;
-"@MMK_R_lc_el" = -20;
-"@MMK_R_lc_ze" = -106;
-};
-"@MMK_L_lc_ShortStem" = {
-"@MMK_R_lc_che" = -55;
-};
-"@MMK_L_lc_ge" = {
-"@MMK_R_lc_che" = -54;
-};
-"@MMK_L_lc_zhe" = {
-"@MMK_R_lc_ze" = 0;
 };
 };
 };
