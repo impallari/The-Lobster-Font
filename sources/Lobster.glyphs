@@ -1,5 +1,5 @@
 {
-.appVersion = "925";
+.appVersion = "926";
 classes = (
 {
 code = "a c d e g h i j k l m n o s t u x y ze-cy ha-cy a_x aacute b_s e_x eacute fi fl f_u ij i_x iacute o_s oacute oacute_s u_x uacute";
@@ -43,7 +43,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2010, The Lobster Font Authors (impallari@gmail.com)";
+copyright = "Copyright 2010 The Lobster Font Authors (impallari@gmail.com)";
 customParameters = (
 {
 name = licenseURL;
@@ -149173,16 +149173,6 @@ unicode = 0000;
 );
 instances = (
 {
-customParameters = (
-{
-name = compatibleFullName;
-value = "Lobster Regular";
-},
-{
-name = postscriptFullName;
-value = "Lobster Regular";
-}
-);
 instanceInterpolations = {
 UUID0 = 1;
 };
