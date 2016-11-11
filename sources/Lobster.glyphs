@@ -4,7 +4,7 @@ DisplayStrings = (
 "\U00BD  /onethird  /twothirds  \U00BC \U00BE \012/oneeighth  /threeeighths  /fiveeighths  /seveneighths \012\012\U00B9/fraction  \U00B2/fraction  \U00B3/fraction  /fivesuperior/fraction  /sevensuperior/fraction \012/fraction/twoinferior   /fraction/threeinferior  /fraction/fourinferior  /fraction/eightinferior",
 "/zerosuperior/fraction/zeroinferior  \U00B9/fraction/oneinferior  \U00B2/fraction/twoinferior  \U00B3/fraction/threeinferior  /foursuperior/fraction/fourinferior  /fivesuperior/fraction/fiveinferior  \012/sixsuperior/fraction/sixinferior  /sevensuperior/fraction/seveninferior  /eightsuperior/fraction/eightinferior  /ninesuperior/fraction/nineinferior \012\012",
 "\U00BD /onethird  /twothirds  \U00BC \U00BE \012/oneeighth  /threeeighths  /fiveeighths/seveneighths",
-"%/perthousand"
+"/zero.numerator/fraction/zero.demoninator  1% 1/perthousand"
 );
 classes = (
 {
@@ -135677,7 +135677,7 @@ unicode = 0039;
 {
 color = 4;
 glyphname = zero.demoninator;
-lastChange = "2016-11-10 12:26:43 +0000";
+lastChange = "2016-11-11 11:39:20 +0000";
 layers = (
 {
 components = (
@@ -137335,7 +137335,7 @@ unicode = 2079;
 {
 color = 4;
 glyphname = fraction;
-lastChange = "2016-11-10 12:31:37 +0000";
+lastChange = "2016-11-11 11:39:24 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -142788,7 +142788,7 @@ unicode = 00B5;
 {
 color = 4;
 glyphname = percent;
-lastChange = "2016-11-10 12:33:33 +0000";
+lastChange = "2016-11-11 11:39:24 +0000";
 layers = (
 {
 components = (
@@ -142797,15 +142797,15 @@ name = zerosuperior;
 },
 {
 name = fraction;
-transform = "{1, 0, 0, 1, 319, 0}";
+transform = "{1, 0, 0, 1, 269, 0}";
 },
 {
 name = zeroinferior;
-transform = "{1, 0, 0, 1, 517, 0}";
+transform = "{1, 0, 0, 1, 417, 0}";
 }
 );
 layerId = UUID0;
-width = 896;
+width = 796;
 }
 );
 unicode = 0025;
@@ -142813,7 +142813,7 @@ unicode = 0025;
 {
 color = 4;
 glyphname = perthousand;
-lastChange = "2016-11-10 12:33:37 +0000";
+lastChange = "2016-11-11 11:39:24 +0000";
 layers = (
 {
 background = {
@@ -142845,19 +142845,19 @@ name = zerosuperior;
 },
 {
 name = fraction;
-transform = "{1, 0, 0, 1, 319, 0}";
+transform = "{1, 0, 0, 1, 269, 0}";
 },
 {
 name = zeroinferior;
-transform = "{1, 0, 0, 1, 517, 0}";
+transform = "{1, 0, 0, 1, 417, 0}";
 },
 {
 name = zeroinferior;
-transform = "{1, 0, 0, 1, 896, 0}";
+transform = "{1, 0, 0, 1, 796, 0}";
 }
 );
 layerId = UUID0;
-width = 1275;
+width = 1175;
 }
 );
 unicode = 2030;
@@ -148776,6 +148776,15 @@ H = 26.8555;
 "o-cy" = -17.0898;
 "ze-cy" = -15.1367;
 };
+"@MMK_L_eightsuperior" = {
+fraction = -40;
+};
+"@MMK_L_fivesuperior" = {
+fraction = -40;
+};
+"@MMK_L_foursuperior" = {
+fraction = -60;
+};
 "@MMK_L_lc_Round" = {
 "@MMK_R_UC_T" = 6;
 "@MMK_R_lc_che" = -10;
@@ -148830,6 +148839,24 @@ H = 26.8555;
 };
 "@MMK_L_lc_zhe" = {
 "@MMK_R_lc_ze" = 0;
+};
+"@MMK_L_ninesuperior" = {
+fraction = -60;
+};
+"@MMK_L_onesuperior" = {
+fraction = -20;
+};
+"@MMK_L_sevensuperior" = {
+fraction = -100;
+};
+"@MMK_L_sixsuperior" = {
+fraction = -50;
+};
+"@MMK_L_threesuperior" = {
+fraction = -40;
+};
+"@MMK_L_zerosuperior" = {
+fraction = -110;
 };
 "Be-cy" = {
 "@MMK_R_Dje-cy" = -17.0898;
@@ -149036,6 +149063,19 @@ three = 4.88281;
 two = 15.1367;
 zero = 17.0898;
 };
+fraction = {
+"@MMK_R_eightinferior" = -70;
+"@MMK_R_fiveinferior" = -70;
+"@MMK_R_fourinferior" = -60;
+"@MMK_R_nineinferior" = -30;
+"@MMK_R_oneinferior" = 20;
+"@MMK_R_seveninferior" = 0;
+"@MMK_R_sixinferior" = -50;
+"@MMK_R_t" = 0;
+"@MMK_R_threeinferior" = -60;
+"@MMK_R_twoinferior" = -40;
+"@MMK_R_zeroinferior" = -100;
+};
 "gheupturn-cy" = {
 "@MMK_R_afii10077" = -45.8984;
 "@MMK_R_el-cy" = -45.8984;
@@ -149168,46 +149208,6 @@ six = 21.4844;
 three = 0;
 two = 7.8125;
 zero = 9.76562;
-};
-fraction = {
-"@MMK_R_t" = 0;
-"@MMK_R_zeroinferior" = -50;
-"@MMK_R_oneinferior" = 20;
-"@MMK_R_twoinferior" = -40;
-"@MMK_R_threeinferior" = -60;
-"@MMK_R_fourinferior" = -60;
-"@MMK_R_fiveinferior" = -70;
-"@MMK_R_nineinferior" = -30;
-"@MMK_R_eightinferior" = -70;
-"@MMK_R_seveninferior" = 0;
-"@MMK_R_sixinferior" = -50;
-};
-"@MMK_L_zerosuperior" = {
-fraction = -60;
-};
-"@MMK_L_onesuperior" = {
-fraction = -20;
-};
-"@MMK_L_threesuperior" = {
-fraction = -40;
-};
-"@MMK_L_foursuperior" = {
-fraction = -60;
-};
-"@MMK_L_fivesuperior" = {
-fraction = -40;
-};
-"@MMK_L_ninesuperior" = {
-fraction = -60;
-};
-"@MMK_L_eightsuperior" = {
-fraction = -40;
-};
-"@MMK_L_sevensuperior" = {
-fraction = -100;
-};
-"@MMK_L_sixsuperior" = {
-fraction = -50;
 };
 };
 };
