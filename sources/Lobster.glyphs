@@ -1,11 +1,5 @@
 {
-.appVersion = "935";
-DisplayStrings = (
-"\U00BD  /onethird  /twothirds  \U00BC \U00BE \012/oneeighth  /threeeighths  /fiveeighths  /seveneighths \012\012\U00B9/fraction  \U00B2/fraction  \U00B3/fraction  /fivesuperior/fraction  /sevensuperior/fraction \012/fraction/twoinferior   /fraction/threeinferior  /fraction/fourinferior  /fraction/eightinferior",
-"/zerosuperior/fraction/zeroinferior  \U00B9/fraction/oneinferior  \U00B2/fraction/twoinferior  \U00B3/fraction/threeinferior  /foursuperior/fraction/fourinferior  /fivesuperior/fraction/fiveinferior  \012/sixsuperior/fraction/sixinferior  /sevensuperior/fraction/seveninferior  /eightsuperior/fraction/eightinferior  /ninesuperior/fraction/nineinferior \012\012",
-"\U00BD /onethird  /twothirds  \U00BC \U00BE \012/oneeighth  /threeeighths  /fiveeighths/seveneighths",
-"/zero.numerator/fraction/zero.demoninator  1% 1/perthousand"
-);
+.appVersion = "937";
 classes = (
 {
 code = "a c d e g h i j k l m n o s t u x y ze-cy ha-cy a_x aacute b_s e_x eacute fi fl f_u ij i_x iacute o_s oacute oacute_s u_x uacute";
@@ -49,7 +43,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2010 The Lobster Font Authors (impallari@gmail.com)";
+copyright = "Copyright 2010 The Lobster Font Authors (impallari@gmail.com), with Reserved Font Name ‘Lobster’.";
 customParameters = (
 {
 name = licenseURL;
