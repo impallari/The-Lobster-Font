@@ -1,33 +1,32 @@
 {
 .appVersion = "939";
+DisplayStrings = (
+"/ge-cy/a-cy/ze-cy/ze-cy/a-cy/el-cy \012/ge-cy/a-cy/be-cy/ze-cy/a-cy/el-cy"
+);
 classes = (
 {
-code = "a c d e g h i j k l m n o s t u x y ze-cy ha-cy a_x aacute b_s e_x eacute fi fl f_u ij i_x iacute o_s oacute oacute_s u_x uacute";
-name = class56;
-},
-{
-code = "a.end c.end d.end e.end g.end h.end i.end j.end k.end l.end m.end n.end o.end s.end t.end u.end x.end y.end ze-cy.init ha-cy.init a_x.end aacute.end b_s.end e_x.end eacute.end fi.end fl.end f_u.end ij.end i_x.end iacute.end o_s.end oacute.end oacute_s.end u_x.end uacute.end";
-name = class57;
-},
-{
-code = "a-cy.end ve-cy.end de-cy.end ie-cy.end zhe-cy.end ze-cy.end ii-cy.end iishort-cy.end ka-cy.end el-cy.end em-cy.end en-cy.end o-cy.end pe-cy.end es-cy.end te-cy.end u-cy.end ha-cy.end che-cy.end sha-cy.end yeru-cy.end iu-cy.end ia-cy.end io-cy.end dze-cy.end i-cy.end je-cy.end a_ha-cy.liga a_che-cy.liga be_zhe-cy.liga be_i-cy.liga be_yi-cy.liga be_je-cy.liga be_ushort-cy.liga be_io-cy.liga be_iishort-cy.liga ve_zhe-cy.liga ve_ze-cy.liga ve_ha-cy.liga ge_ze-cy.liga ge_ha-cy.liga ge_che-cy.liga gje_ze-cy.liga gje_ha-cy.liga gje_che-cy.liga de_che-cy.liga de_je-cy.liga io_ze-cy.liga ie_che-cy.liga io_che-cy.liga zhe_che-cy.liga ii_che-cy.liga iishort_che-cy.liga ie_ze-cy.liga ka_che-cy.liga kje_che-cy.liga el_che-cy.liga em_che-cy.liga en_che-cy.liga o_zhe-cy.liga iu_zhe-cy.liga o_ze-cy.liga iu_ze-cy.liga o_el-cy.liga iu_el-cy.liga o_em-cy.liga iu_em-cy.liga iu_ha-cy.liga pe_che-cy.liga es_ze-cy.liga u_je-cy.liga e_ze-cy.liga e_ha-cy.liga es_che-cy.liga e_che-cy.liga te_che-cy.liga ushort_je-cy.liga u_che-cy.liga ushort_che-cy.liga ha_che-cy.liga che_che-cy.liga sha_che-cy.liga yeru_che-cy.liga i_che-cy.liga yi_che-cy.liga yi_yi-cy.liga tshe_je-cy.liga tshe_che-cy.liga je_je-cy.liga je_che-cy.liga dze_ze-cy.liga dze_ha-cy.liga dze_che-cy.liga dzhe_che-cy.liga ereversed_ze-cy.liga ia_che-cy.liga ie_ha-cy.liga io_ha-cy.liga o_ha-cy.liga er_ze-cy.liga es_ha-cy.liga ef_ze-cy.liga";
-name = class59;
+code = "a b c d e f g h i j k l m n o p q r s t u v w x y z a.end a_x a_x.end a_z aacute aacute.end acircumflex adieresis ae agrave aogonek aring atilde b_s b_s.end b_s_x b_s_z c.end c_x c_z cacute ccaron ccedilla ccircumflex d.end idotless idotless.end e.end e_x e_x.end e_z eacute eacute.end eacute_x ecircumflex edieresis egrave eogonek eth ff ffi ffl f_f_t fi fi.end f_i_x f_i_z fl fl.end f_l_x f_l_z f_t f_u f_u.end f_x g.end g_p g_x g_z h.end i.end ij ij.end i_x i_x.end i_z iacute iacute.end iacute_x iacute_z icircumflex idieresis igrave j.end j_x j_z k.end k.salt l.end l_x l_z lslash m.end m_x m_z mu n.end n_z nacute ntilde o.end o_ae o_s o_s.end o_s_x o_s_z o_x oacute oacute.end oacute_s oacute_s.end oacute_s_x oacute_s_z oacute_x ocircumflex odieresis oe ograve oslash otilde p.salt r_x r_z s.end s_x s_z sacute scaron t.end t_x t_z thorn u.end u_v u_x u_x.end uacute uacute.end ucircumflex udieresis ugrave x.end y.end y_p y_x y_z yacute ydieresis zacute zcaron zdotaccent";
+name = all;
 },
 {
 code = "a c d e g h i j k l m n o s t u x y a_x aacute b_s e_x eacute fi fl f_u ij i_x iacute o_s oacute oacute_s u_x uacute";
-name = liga1;
+name = having_finals;
 },
 {
-code = "a-cy ve-cy de-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy es-cy te-cy u-cy ha-cy che-cy sha-cy yeru-cy iu-cy ia-cy io-cy dze-cy i-cy je-cy a_ha-cy a_che-cy be_zhe-cy be_i-cy be_yi-cy be_je-cy be_ushort-cy be_io-cy be_iishort-cy ve_zhe-cy ve_ze-cy ve_ha-cy ge_ze-cy ge_ha-cy ge_che-cy gje_ze-cy gje_ha-cy gje_che-cy de_che-cy de_je-cy io_ze-cy ie_che-cy io_che-cy zhe_che-cy ii_che-cy iishort_che-cy ie_ze-cy ka_che-cy kje_che-cy el_che-cy em_che-cy en_che-cy o_zhe-cy iu_zhe-cy o_ze-cy iu_ze-cy o_el-cy iu_el-cy o_em-cy iu_em-cy iu_ha-cy pe_che-cy es_ze-cy u_je-cy e_ze-cy e_ha-cy es_che-cy e_che-cy te_che-cy ushort_je-cy u_che-cy ushort_che-cy ha_che-cy che_che-cy sha_che-cy yeru_che-cy i_che-cy yi_che-cy yi_yi-cy tshe_je-cy tshe_che-cy je_je-cy je_che-cy dze_ze-cy dze_ha-cy dze_che-cy dzhe_che-cy ereversed_ze-cy ia_che-cy ie_ha-cy io_ha-cy o_ha-cy er_ze-cy es_ha-cy ef_ze-cy";
-name = liga2;
+code = "a.end c.end d.end e.end g.end h.end i.end j.end k.end l.end m.end n.end o.end s.end t.end u.end x.end y.end a_x.end aacute.end b_s.end e_x.end eacute.end fi.end fl.end f_u.end ij.end i_x.end iacute.end o_s.end oacute.end oacute_s.end u_x.end uacute.end";
+name = finals;
 },
 {
-code = "a b c d e f g h i j k l m n o p q r s t u v w x y z a.end a_x a_x.end a_z aacute aacute.end acircumflex adieresis ae agrave aogonek aring atilde b_s b_s.end b_s_x b_s_z c.end c_x c_z cacute ccaron ccedilla ccircumflex d.end idotless idotless.end e.end e_x e_x.end e_z eacute eacute.end eacute_x ecircumflex edieresis egrave eogonek eth ff ffi ffl f_f_t fi fi.end f_i_x f_i_z fl fl.end f_l_x f_l_z f_t f_u f_u.end f_x g.end g_p g_x g_z h.end i.end ij ij.end i_x i_x.end i_z iacute iacute.end iacute_x iacute_z icircumflex idieresis igrave j.end j_x j_z k.end k.salt l.end l_x l_z lslash m.end m_x m_z mu n.end n_z nacute ntilde o.end o_ae o_s o_s.end o_s_x o_s_z o_x oacute oacute.end oacute_s oacute_s.end oacute_s_x oacute_s_z oacute_x ocircumflex odieresis oe ograve oslash otilde p.salt r_x r_z s.end s_x s_z sacute scaron t.end t_x t_z thorn u.end u_v u_x u_x.end uacute uacute.end ucircumflex udieresis ugrave x.end y.end y_p y_x y_z yacute ydieresis zacute zcaron zdotaccent";
-name = liga3;
+code = "a-cy be-cy ve-cy ge-cy de-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ef-cy ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy iu-cy ia-cy io-cy gje-cy e-cy dze-cy i-cy yi-cy je-cy lje-cy nje-cy tshe-cy kje-cy ushort-cy dzhe-cy mu o-cy.end gheupturn-cy a_ha-cy a_che-cy be_ge-cy be_zhe-cy be_ereversed-cy be_gje-cy be_i-cy be_yi-cy be_je-cy be_ushort-cy be_io-cy be_iishort-cy glyph455 ve_ge-cy ve_gje-cy ve_zhe-cy ve_ze-cy ve_ha-cy ge_ze-cy ge_ha-cy ge_che-cy gje_ze-cy gje_ha-cy gje_che-cy de_che-cy de_je-cy io_ze-cy ie_che-cy io_che-cy zhe_che-cy ii_che-cy iishort_che-cy ie_ze-cy ka_che-cy kje_che-cy el_che-cy em_che-cy en_che-cy o_ge-cy o_gje-cy iu_ge-cy iu_gje-cy o_zhe-cy iu_zhe-cy o_ze-cy iu_ze-cy o_el-cy iu_el-cy o_lje-cy iu_lje-cy o_em-cy iu_em-cy iu_ha-cy o_ereversed-cy iu_ereversed-cy pe_che-cy es_ze-cy u_je-cy e_ze-cy e_ha-cy es_che-cy e_che-cy te_che-cy es_hardsign-cy ushort_je-cy u_che-cy ushort_che-cy ha_che-cy ha_hardsign-cy che_che-cy sha_che-cy yeru_che-cy i_che-cy yi_che-cy yi_yi-cy hryvnia tshe_je-cy tshe_che-cy je_je-cy je_che-cy dze_ze-cy dze_ha-cy dze_che-cy dzhe_che-cy ereversed_ze-cy ia_che-cy Ie_ze-cy Ie_ha-cy Io_ze-cy Io_ha-cy Es_ze-cy Es_ha-cy E_ze-cy E_ha-cy ie_ha-cy io_ha-cy o_ha-cy er_ze-cy es_ha-cy ef_ze-cy ze_ze-cy a-cy.end es-cy.end zhe-cy.end ie-cy.end io-cy.end de-cy.end ii-cy.end iishort-cy.end ka-cy.end el-cy.end em-cy.end en-cy.end pe-cy.end te-cy.end u-cy.end ha-cy.end che-cy.end sha-cy.end yeru-cy.end i-cy.end je-cy.end dze-cy.end ia-cy.end ve-cy.end ze-cy.end a_ha-cy.liga a_che-cy.liga be_zhe-cy.liga be_i-cy.liga be_yi-cy.liga be_je-cy.liga be_ushort-cy.liga be_io-cy.liga be_iishort-cy.liga ve_zhe-cy.liga ve_ze-cy.liga ve_ha-cy.liga ge_ze-cy.liga ge_ha-cy.liga ge_che-cy.liga gje_ze-cy.liga gje_ha-cy.liga gje_che-cy.liga de_che-cy.liga de_je-cy.liga ie_ze-cy.liga ie_che-cy.liga io_che-cy.liga io_ze-cy.liga zhe_che-cy.liga ii_che-cy.liga iishort_che-cy.liga ka_che-cy.liga kje_che-cy.liga el_che-cy.liga em_che-cy.liga en_che-cy.liga o_zhe-cy.liga iu_zhe-cy.liga o_ze-cy.liga iu_ze-cy.liga o_el-cy.liga iu_el-cy.liga o_em-cy.liga iu_em-cy.liga iu_ha-cy.liga pe_che-cy.liga es_ze-cy.liga u_je-cy.liga e_ze-cy.liga e_ha-cy.liga es_che-cy.liga e_che-cy.liga te_che-cy.liga ushort_je-cy.liga u_che-cy.liga ushort_che-cy.liga ha_che-cy.liga che_che-cy.liga sha_che-cy.liga yeru_che-cy.liga i_che-cy.liga yi_che-cy.liga yi_yi-cy.liga tshe_je-cy.liga tshe_che-cy.liga je_je-cy.liga je_che-cy.liga dze_ze-cy.liga dze_ha-cy.liga dze_che-cy.liga dzhe_che-cy.liga ereversed_ze-cy.liga ia_che-cy.liga ie_ha-cy.liga io_ha-cy.liga o_ha-cy.liga er_ze-cy.liga es_ha-cy.liga ef_ze-cy.liga ze_ze-cy.liga";
+name = all_cyr;
 },
 {
-code = "a-cy be-cy ve-cy ge-cy de-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ef-cy ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy iu-cy ia-cy io-cy gje-cy e-cy dze-cy i-cy yi-cy je-cy lje-cy nje-cy tshe-cy kje-cy ushort-cy dzhe-cy mu o-cy.end gheupturn-cy a_ha-cy a_che-cy be_ge-cy be_zhe-cy be_ereversed-cy be_gje-cy be_i-cy be_yi-cy be_je-cy be_ushort-cy be_io-cy be_iishort-cy glyph455 ve_ge-cy ve_gje-cy ve_zhe-cy ve_ze-cy ve_ha-cy ge_ze-cy ge_ha-cy ge_che-cy gje_ze-cy gje_ha-cy gje_che-cy de_che-cy de_je-cy io_ze-cy ie_che-cy io_che-cy zhe_che-cy ii_che-cy iishort_che-cy ie_ze-cy ka_che-cy kje_che-cy el_che-cy em_che-cy en_che-cy o_ge-cy o_gje-cy iu_ge-cy iu_gje-cy o_zhe-cy iu_zhe-cy o_ze-cy iu_ze-cy o_el-cy iu_el-cy o_lje-cy iu_lje-cy o_em-cy iu_em-cy iu_ha-cy o_ereversed-cy iu_ereversed-cy pe_che-cy es_ze-cy u_je-cy e_ze-cy e_ha-cy es_che-cy e_che-cy te_che-cy es_hardsign-cy ushort_je-cy u_che-cy ushort_che-cy ha_che-cy ha_hardsign-cy che_che-cy sha_che-cy yeru_che-cy i_che-cy yi_che-cy yi_yi-cy hryvnia tshe_je-cy tshe_che-cy je_je-cy je_che-cy dze_ze-cy dze_ha-cy dze_che-cy dzhe_che-cy ereversed_ze-cy ia_che-cy Ie_ze-cy Ie_ha-cy Io_ze-cy Io_ha-cy Es_ze-cy Es_ha-cy E_ze-cy E_ha-cy ie_ha-cy io_ha-cy o_ha-cy er_ze-cy es_ha-cy ef_ze-cy a-cy.end es-cy.end zhe-cy.end ie-cy.end io-cy.end de-cy.end ii-cy.end iishort-cy.end ka-cy.end el-cy.end em-cy.end en-cy.end pe-cy.end te-cy.end u-cy.end ha-cy.end che-cy.end sha-cy.end yeru-cy.end i-cy.end je-cy.end dze-cy.end ia-cy.end ve-cy.end ze-cy.end a_ha-cy.liga a_che-cy.liga be_zhe-cy.liga be_i-cy.liga be_yi-cy.liga be_je-cy.liga be_ushort-cy.liga be_io-cy.liga be_iishort-cy.liga ve_zhe-cy.liga ve_ze-cy.liga ve_ha-cy.liga ge_ze-cy.liga ge_ha-cy.liga ge_che-cy.liga gje_ze-cy.liga gje_ha-cy.liga gje_che-cy.liga de_che-cy.liga de_je-cy.liga ie_ze-cy.liga ie_che-cy.liga io_che-cy.liga io_ze-cy.liga zhe_che-cy.liga ii_che-cy.liga iishort_che-cy.liga ka_che-cy.liga kje_che-cy.liga el_che-cy.liga em_che-cy.liga en_che-cy.liga o_zhe-cy.liga iu_zhe-cy.liga o_ze-cy.liga iu_ze-cy.liga o_el-cy.liga iu_el-cy.liga o_em-cy.liga iu_em-cy.liga iu_ha-cy.liga pe_che-cy.liga es_ze-cy.liga u_je-cy.liga e_ze-cy.liga e_ha-cy.liga es_che-cy.liga e_che-cy.liga te_che-cy.liga ushort_je-cy.liga u_che-cy.liga ushort_che-cy.liga ha_che-cy.liga che_che-cy.liga sha_che-cy.liga yeru_che-cy.liga i_che-cy.liga yi_che-cy.liga yi_yi-cy.liga tshe_je-cy.liga tshe_che-cy.liga je_je-cy.liga je_che-cy.liga dze_ze-cy.liga dze_ha-cy.liga dze_che-cy.liga dzhe_che-cy.liga ereversed_ze-cy.liga ia_che-cy.liga ie_ha-cy.liga io_ha-cy.liga o_ha-cy.liga er_ze-cy.liga es_ha-cy.liga ef_ze-cy.liga ha-cy.init ze-cy.init";
-name = liga4;
+code = "a-cy ve-cy de-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy es-cy te-cy u-cy ha-cy che-cy sha-cy yeru-cy iu-cy ia-cy io-cy dze-cy i-cy je-cy a_ha-cy a_che-cy be_zhe-cy be_i-cy be_yi-cy be_je-cy be_ushort-cy be_io-cy be_iishort-cy ve_zhe-cy ve_ze-cy ve_ha-cy ge_ze-cy ge_ha-cy ge_che-cy gje_ze-cy gje_ha-cy gje_che-cy de_che-cy de_je-cy io_ze-cy ie_che-cy io_che-cy zhe_che-cy ii_che-cy iishort_che-cy ie_ze-cy ka_che-cy kje_che-cy el_che-cy em_che-cy en_che-cy o_zhe-cy iu_zhe-cy o_ze-cy iu_ze-cy o_el-cy iu_el-cy o_em-cy iu_em-cy iu_ha-cy pe_che-cy es_ze-cy u_je-cy e_ze-cy e_ha-cy es_che-cy e_che-cy te_che-cy ushort_je-cy u_che-cy ushort_che-cy ha_che-cy che_che-cy sha_che-cy yeru_che-cy i_che-cy yi_che-cy yi_yi-cy tshe_je-cy tshe_che-cy je_je-cy je_che-cy dze_ze-cy dze_ha-cy dze_che-cy dzhe_che-cy ereversed_ze-cy ia_che-cy ie_ha-cy io_ha-cy o_ha-cy er_ze-cy es_ha-cy ef_ze-cy ze_ze-cy";
+name = having_finals_cyr;
+},
+{
+code = "a-cy.end ve-cy.end de-cy.end ie-cy.end zhe-cy.end ze-cy.end ii-cy.end iishort-cy.end ka-cy.end el-cy.end em-cy.end en-cy.end o-cy.end pe-cy.end es-cy.end te-cy.end u-cy.end ha-cy.end che-cy.end sha-cy.end yeru-cy.end iu-cy.end ia-cy.end io-cy.end dze-cy.end i-cy.end je-cy.end a_ha-cy.liga a_che-cy.liga be_zhe-cy.liga be_i-cy.liga be_yi-cy.liga be_je-cy.liga be_ushort-cy.liga be_io-cy.liga be_iishort-cy.liga ve_zhe-cy.liga ve_ze-cy.liga ve_ha-cy.liga ge_ze-cy.liga ge_ha-cy.liga ge_che-cy.liga gje_ze-cy.liga gje_ha-cy.liga gje_che-cy.liga de_che-cy.liga de_je-cy.liga io_ze-cy.liga ie_che-cy.liga io_che-cy.liga zhe_che-cy.liga ii_che-cy.liga iishort_che-cy.liga ie_ze-cy.liga ka_che-cy.liga kje_che-cy.liga el_che-cy.liga em_che-cy.liga en_che-cy.liga o_zhe-cy.liga iu_zhe-cy.liga o_ze-cy.liga iu_ze-cy.liga o_el-cy.liga iu_el-cy.liga o_em-cy.liga iu_em-cy.liga iu_ha-cy.liga pe_che-cy.liga es_ze-cy.liga u_je-cy.liga e_ze-cy.liga e_ha-cy.liga es_che-cy.liga e_che-cy.liga te_che-cy.liga ushort_je-cy.liga u_che-cy.liga ushort_che-cy.liga ha_che-cy.liga che_che-cy.liga sha_che-cy.liga yeru_che-cy.liga i_che-cy.liga yi_che-cy.liga yi_yi-cy.liga tshe_je-cy.liga tshe_che-cy.liga je_je-cy.liga je_che-cy.liga dze_ze-cy.liga dze_ha-cy.liga dze_che-cy.liga dzhe_che-cy.liga ereversed_ze-cy.liga ia_che-cy.liga ie_ha-cy.liga io_ha-cy.liga o_ha-cy.liga er_ze-cy.liga es_ha-cy.liga ef_ze-cy.liga ze_ze-cy.liga";
+name = finals_cyr;
 },
 {
 code = "A B E N k p";
@@ -114,7 +113,7 @@ code = "lookup frac0 {\012	sub zero slash zero by percent;\012} frac0;\012script
 name = frac;
 },
 {
-code = "# Standard Ligatures\012 # Latin\012lookup liga2 {\012    sub E x by E_x;\012    sub F i by F_i;\012    sub I J by IJ;\012    sub T h by T_h;\012    sub T i by T_i;\012} liga2;\012lookup liga3 {\012    sub d' z by d.end;\012    sub u' z by u.end;\012} liga3;\012lookup liga4 {\012    sub a x by a_x;\012    sub a z by a_z;\012    sub b s x by b_s_x;\012    sub b s z by b_s_z;\012    sub b s by b_s;\012    sub c x by c_x;\012    sub c z by c_z;\012    sub e x by e_x;\012    sub e z by e_z;\012    sub f f i by ffi;\012    sub f f l by ffl;\012    sub f f t by f_f_t;\012    sub f i x by f_i_x;\012    sub f i z by f_i_z;\012    sub f l x by f_l_x;\012    sub f l z by f_l_z;\012    sub f f by ff;\012    sub f i by fi;\012    sub f l by fl;\012    sub f t by f_t;\012    sub f u by f_u;\012    sub f x by f_x;\012    sub g p by g_p;\012    sub g x by g_x;\012    sub g z by g_z;\012    sub i j by ij;\012    sub i x by i_x;\012    sub i z by i_z;\012    sub j x by j_x;\012    sub j z by j_z;\012    sub l x by l_x;\012    sub l z by l_z;\012    sub m x by m_x;\012    sub m z by m_z;\012    sub n z by n_z;\012    sub o s x by o_s_x;\012    sub o s z by o_s_z;\012    sub o s by o_s;\012    sub o x by o_x;\012    sub o ae by o_ae;\012    sub r x by r_x;\012    sub r z by r_z;\012    sub s x by s_x;\012    sub s z by s_z;\012    sub t x by t_x;\012    sub t z by t_z;\012    sub u v by u_v;\012    sub u x by u_x;\012    sub y p by y_p;\012    sub y x by y_x;\012    sub y z by y_z;\012    sub eacute x by eacute_x;\012    sub iacute x by iacute_x;\012    sub iacute z by iacute_z;\012    sub oacute s x by oacute_s_x;\012    sub oacute s z by oacute_s_z;\012    sub oacute s by oacute_s;\012    sub oacute x by oacute_x;\012} liga4;\012lookup liga5 {\012    ignore sub @liga1' @liga3;\012    sub @liga1' by [a.end c.end d.end e.end g.end h.end i.end j.end k.end l.end m.end n.end o.end s.end t.end u.end x.end y.end a_x.end aacute.end b_s.end e_x.end eacute.end fi.end fl.end f_u.end ij.end i_x.end iacute.end o_s.end oacute.end oacute_s.end u_x.end uacute.end];\012} liga5;\012lookup liga6 {\012    sub Io-cy ze-cy by Io_ze-cy;\012    sub Io-cy ha-cy by Io_ha-cy;\012    sub E-cy ze-cy by E_ze-cy;\012    sub E-cy ha-cy by E_ha-cy;\012    sub Ie-cy ze-cy by Ie_ze-cy;\012    sub Ie-cy ha-cy by Ie_ha-cy;\012    sub Es-cy ze-cy by Es_ze-cy;\012    sub Es-cy ha-cy by Es_ha-cy;\012    sub a-cy ha-cy by a_ha-cy;\012    sub a-cy che-cy by a_che-cy;\012    sub be-cy ge-cy by be_ge-cy;\012    sub be-cy zhe-cy by be_zhe-cy;\012    sub be-cy iishort-cy by be_iishort-cy;\012    sub be-cy ereversed-cy by be_ereversed-cy;\012    sub be-cy io-cy by be_io-cy;\012    sub be-cy gje-cy by be_gje-cy;\012    sub be-cy i-cy by be_i-cy;\012    sub be-cy yi-cy by be_yi-cy;\012    sub be-cy je-cy by be_je-cy;\012    sub be-cy ushort-cy by be_ushort-cy;\012    sub ve-cy ge-cy by ve_ge-cy;\012    sub ve-cy zhe-cy by ve_zhe-cy;\012    sub ve-cy ze-cy by ve_ze-cy;\012    sub ve-cy ha-cy by ve_ha-cy;\012    sub ve-cy gje-cy by ve_gje-cy;\012    sub ge-cy ze-cy by ge_ze-cy;\012    sub ge-cy ha-cy by ge_ha-cy;\012    sub ge-cy che-cy by ge_che-cy;\012    sub de-cy che-cy by de_che-cy;\012    sub de-cy je-cy by de_je-cy;\012    sub ie-cy ze-cy by ie_ze-cy;\012    sub ie-cy ha-cy by ie_ha-cy;\012    sub ie-cy che-cy by ie_che-cy;\012    sub zhe-cy che-cy by zhe_che-cy;\012    sub dze-cy ze-cy by dze_ze-cy;\012    sub dze-cy ha-cy by dze_ha-cy;\012    sub dze-cy che-cy by dze_che-cy;\012    sub ii-cy che-cy by ii_che-cy;\012    sub iishort-cy che-cy by iishort_che-cy;\012    sub ka-cy che-cy by ka_che-cy;\012    sub el-cy che-cy by el_che-cy;\012    sub em-cy che-cy by em_che-cy;\012    sub en-cy che-cy by en_che-cy;\012    sub o-cy ge-cy by o_ge-cy;\012    sub o-cy zhe-cy by o_zhe-cy;\012    sub o-cy ze-cy by o_ze-cy;\012    sub o-cy el-cy by o_el-cy;\012    sub o-cy em-cy by o_em-cy;\012    sub o-cy ha-cy by o_ha-cy;\012    sub o-cy ereversed-cy by o_ereversed-cy;\012    sub o-cy gje-cy by o_gje-cy;\012    sub o-cy lje-cy by o_lje-cy;\012    sub pe-cy che-cy by pe_che-cy;\012    sub er-cy ze-cy by er_ze-cy;\012    sub es-cy ze-cy by es_ze-cy;\012    sub es-cy ha-cy by es_ha-cy;\012    sub es-cy che-cy by es_che-cy;\012    sub es-cy hardsign-cy by es_hardsign-cy;\012    sub te-cy che-cy by te_che-cy;\012    sub u-cy che-cy by u_che-cy;\012    sub u-cy je-cy by u_je-cy;\012    sub ef-cy ze-cy by ef_ze-cy;\012    sub ha-cy che-cy by ha_che-cy;\012    sub ha-cy hardsign-cy by ha_hardsign-cy;\012    sub che-cy che-cy by che_che-cy;\012    sub sha-cy che-cy by sha_che-cy;\012    sub yeru-cy che-cy by yeru_che-cy;\012    sub ereversed-cy ze-cy by ereversed_ze-cy;\012    sub iu-cy ge-cy by iu_ge-cy;\012    sub iu-cy zhe-cy by iu_zhe-cy;\012    sub iu-cy ze-cy by iu_ze-cy;\012    sub iu-cy el-cy by iu_el-cy;\012    sub iu-cy em-cy by iu_em-cy;\012    sub iu-cy ha-cy by iu_ha-cy;\012    sub iu-cy ereversed-cy by iu_ereversed-cy;\012    sub iu-cy gje-cy by iu_gje-cy;\012    sub iu-cy lje-cy by iu_lje-cy;\012    sub ia-cy che-cy by ia_che-cy;\012    sub io-cy ze-cy by io_ze-cy;\012    sub io-cy ha-cy by io_ha-cy;\012    sub io-cy che-cy by io_che-cy;\012    sub gje-cy ze-cy by gje_ze-cy;\012    sub gje-cy ha-cy by gje_ha-cy;\012    sub gje-cy che-cy by gje_che-cy;\012    sub e-cy ze-cy by e_ze-cy;\012    sub e-cy ha-cy by e_ha-cy;\012    sub e-cy che-cy by e_che-cy;\012    sub i-cy che-cy by i_che-cy;\012    sub yi-cy che-cy by yi_che-cy;\012    sub yi-cy yi-cy by yi_yi-cy;\012    sub je-cy che-cy by je_che-cy;\012    sub je-cy je-cy by je_je-cy;\012    sub tshe-cy che-cy by tshe_che-cy;\012    sub tshe-cy je-cy by tshe_je-cy;\012    sub kje-cy che-cy by kje_che-cy;\012    sub ushort-cy che-cy by ushort_che-cy;\012    sub ushort-cy je-cy by ushort_je-cy;\012    sub dzhe-cy che-cy by dzhe_che-cy;\012} liga6;\012lookup liga7 {\012    sub [ze-cy ha-cy]' @liga4 by [ze-cy.init ha-cy.init];\012    ignore sub @liga2' @liga4;\012    sub @liga2' by [a-cy.end ve-cy.end de-cy.end ie-cy.end zhe-cy.end ze-cy.end ii-cy.end iishort-cy.end ka-cy.end el-cy.end em-cy.end en-cy.end o-cy.end pe-cy.end es-cy.end te-cy.end u-cy.end ha-cy.end che-cy.end sha-cy.end yeru-cy.end iu-cy.end ia-cy.end io-cy.end dze-cy.end i-cy.end je-cy.end a_ha-cy.liga a_che-cy.liga be_zhe-cy.liga be_i-cy.liga be_yi-cy.liga be_je-cy.liga be_ushort-cy.liga be_io-cy.liga be_iishort-cy.liga ve_zhe-cy.liga ve_ze-cy.liga ve_ha-cy.liga ge_ze-cy.liga ge_ha-cy.liga ge_che-cy.liga gje_ze-cy.liga gje_ha-cy.liga gje_che-cy.liga de_che-cy.liga de_je-cy.liga io_ze-cy.liga ie_che-cy.liga io_che-cy.liga zhe_che-cy.liga ii_che-cy.liga iishort_che-cy.liga ie_ze-cy.liga ka_che-cy.liga kje_che-cy.liga el_che-cy.liga em_che-cy.liga en_che-cy.liga o_zhe-cy.liga iu_zhe-cy.liga o_ze-cy.liga iu_ze-cy.liga o_el-cy.liga iu_el-cy.liga o_em-cy.liga iu_em-cy.liga iu_ha-cy.liga pe_che-cy.liga es_ze-cy.liga u_je-cy.liga e_ze-cy.liga e_ha-cy.liga es_che-cy.liga e_che-cy.liga te_che-cy.liga ushort_je-cy.liga u_che-cy.liga ushort_che-cy.liga ha_che-cy.liga che_che-cy.liga sha_che-cy.liga yeru_che-cy.liga i_che-cy.liga yi_che-cy.liga yi_yi-cy.liga tshe_je-cy.liga tshe_che-cy.liga je_je-cy.liga je_che-cy.liga dze_ze-cy.liga dze_ha-cy.liga dze_che-cy.liga dzhe_che-cy.liga ereversed_ze-cy.liga ia_che-cy.liga ie_ha-cy.liga io_ha-cy.liga o_ha-cy.liga er_ze-cy.liga es_ha-cy.liga ef_ze-cy.liga];\012} liga7;\012 script cyrl; # Cyrillic\012lookup liga6;\012lookup liga7;\012";
+code = "# Standard Ligatures\012 # Latin\012lookup liga2 {\012    sub E x by E_x;\012    sub F i by F_i;\012    sub I J by IJ;\012    sub T h by T_h;\012    sub T i by T_i;\012} liga2;\012lookup liga3 {\012    sub d' z by d.end;\012    sub u' z by u.end;\012} liga3;\012lookup liga4 {\012    sub a x by a_x;\012    sub a z by a_z;\012    sub b s x by b_s_x;\012    sub b s z by b_s_z;\012    sub b s by b_s;\012    sub c x by c_x;\012    sub c z by c_z;\012    sub e x by e_x;\012    sub e z by e_z;\012    sub f f i by ffi;\012    sub f f l by ffl;\012    sub f f t by f_f_t;\012    sub f i x by f_i_x;\012    sub f i z by f_i_z;\012    sub f l x by f_l_x;\012    sub f l z by f_l_z;\012    sub f f by ff;\012    sub f i by fi;\012    sub f l by fl;\012    sub f t by f_t;\012    sub f u by f_u;\012    sub f x by f_x;\012    sub g p by g_p;\012    sub g x by g_x;\012    sub g z by g_z;\012    sub i j by ij;\012    sub i x by i_x;\012    sub i z by i_z;\012    sub j x by j_x;\012    sub j z by j_z;\012    sub l x by l_x;\012    sub l z by l_z;\012    sub m x by m_x;\012    sub m z by m_z;\012    sub n z by n_z;\012    sub o s x by o_s_x;\012    sub o s z by o_s_z;\012    sub o s by o_s;\012    sub o x by o_x;\012    sub o ae by o_ae;\012    sub r x by r_x;\012    sub r z by r_z;\012    sub s x by s_x;\012    sub s z by s_z;\012    sub t x by t_x;\012    sub t z by t_z;\012    sub u v by u_v;\012    sub u x by u_x;\012    sub y p by y_p;\012    sub y x by y_x;\012    sub y z by y_z;\012    sub eacute x by eacute_x;\012    sub iacute x by iacute_x;\012    sub iacute z by iacute_z;\012    sub oacute s x by oacute_s_x;\012    sub oacute s z by oacute_s_z;\012    sub oacute s by oacute_s;\012    sub oacute x by oacute_x;\012} liga4;\012lookup endings {\012    ignore sub @having_finals' @all;\012    sub @having_finals' by @finals;\012} endings;\012\012lookup liga6 {\012    sub Io-cy ze-cy by Io_ze-cy;\012    sub Io-cy ha-cy by Io_ha-cy;\012    sub E-cy ze-cy by E_ze-cy;\012    sub E-cy ha-cy by E_ha-cy;\012    sub Ie-cy ze-cy by Ie_ze-cy;\012    sub Ie-cy ha-cy by Ie_ha-cy;\012    sub Es-cy ze-cy by Es_ze-cy;\012    sub Es-cy ha-cy by Es_ha-cy;\012    sub a-cy ha-cy by a_ha-cy;\012    sub a-cy che-cy by a_che-cy;\012    sub be-cy ge-cy by be_ge-cy;\012    sub be-cy zhe-cy by be_zhe-cy;\012    sub be-cy iishort-cy by be_iishort-cy;\012    sub be-cy ereversed-cy by be_ereversed-cy;\012    sub be-cy io-cy by be_io-cy;\012    sub be-cy gje-cy by be_gje-cy;\012    sub be-cy i-cy by be_i-cy;\012    sub be-cy yi-cy by be_yi-cy;\012    sub be-cy je-cy by be_je-cy;\012    sub be-cy ushort-cy by be_ushort-cy;\012    sub ve-cy ge-cy by ve_ge-cy;\012    sub ve-cy zhe-cy by ve_zhe-cy;\012    sub ve-cy ze-cy by ve_ze-cy;\012    sub ve-cy ha-cy by ve_ha-cy;\012    sub ve-cy gje-cy by ve_gje-cy;\012    sub ge-cy ze-cy by ge_ze-cy;\012    sub ge-cy ha-cy by ge_ha-cy;\012    sub ge-cy che-cy by ge_che-cy;\012    sub de-cy che-cy by de_che-cy;\012    sub de-cy je-cy by de_je-cy;\012    sub ie-cy ze-cy by ie_ze-cy;\012    sub ie-cy ha-cy by ie_ha-cy;\012    sub ie-cy che-cy by ie_che-cy;\012    sub zhe-cy che-cy by zhe_che-cy;\012    sub dze-cy ze-cy by dze_ze-cy;\012    sub dze-cy ha-cy by dze_ha-cy;\012    sub dze-cy che-cy by dze_che-cy;\012    sub ii-cy che-cy by ii_che-cy;\012    sub iishort-cy che-cy by iishort_che-cy;\012    sub ka-cy che-cy by ka_che-cy;\012    sub el-cy che-cy by el_che-cy;\012    sub em-cy che-cy by em_che-cy;\012    sub en-cy che-cy by en_che-cy;\012    sub o-cy ge-cy by o_ge-cy;\012    sub o-cy zhe-cy by o_zhe-cy;\012    sub o-cy ze-cy by o_ze-cy;\012    sub o-cy el-cy by o_el-cy;\012    sub o-cy em-cy by o_em-cy;\012    sub o-cy ha-cy by o_ha-cy;\012    sub o-cy ereversed-cy by o_ereversed-cy;\012    sub o-cy gje-cy by o_gje-cy;\012    sub o-cy lje-cy by o_lje-cy;\012    sub pe-cy che-cy by pe_che-cy;\012    sub er-cy ze-cy by er_ze-cy;\012    sub es-cy ze-cy by es_ze-cy;\012    sub es-cy ha-cy by es_ha-cy;\012    sub es-cy che-cy by es_che-cy;\012    sub es-cy hardsign-cy by es_hardsign-cy;\012    sub te-cy che-cy by te_che-cy;\012    sub u-cy che-cy by u_che-cy;\012    sub u-cy je-cy by u_je-cy;\012    sub ef-cy ze-cy by ef_ze-cy;\012    sub ha-cy che-cy by ha_che-cy;\012    sub ha-cy hardsign-cy by ha_hardsign-cy;\012    sub che-cy che-cy by che_che-cy;\012    sub sha-cy che-cy by sha_che-cy;\012    sub yeru-cy che-cy by yeru_che-cy;\012    sub ereversed-cy ze-cy by ereversed_ze-cy;\012    sub iu-cy ge-cy by iu_ge-cy;\012    sub iu-cy zhe-cy by iu_zhe-cy;\012    sub iu-cy ze-cy by iu_ze-cy;\012    sub iu-cy el-cy by iu_el-cy;\012    sub iu-cy em-cy by iu_em-cy;\012    sub iu-cy ha-cy by iu_ha-cy;\012    sub iu-cy ereversed-cy by iu_ereversed-cy;\012    sub iu-cy gje-cy by iu_gje-cy;\012    sub iu-cy lje-cy by iu_lje-cy;\012    sub ia-cy che-cy by ia_che-cy;\012    sub io-cy ze-cy by io_ze-cy;\012    sub io-cy ha-cy by io_ha-cy;\012    sub io-cy che-cy by io_che-cy;\012    sub gje-cy ze-cy by gje_ze-cy;\012    sub gje-cy ha-cy by gje_ha-cy;\012    sub gje-cy che-cy by gje_che-cy;\012    sub e-cy ze-cy by e_ze-cy;\012    sub e-cy ha-cy by e_ha-cy;\012    sub e-cy che-cy by e_che-cy;\012    sub i-cy che-cy by i_che-cy;\012    sub yi-cy che-cy by yi_che-cy;\012    sub yi-cy yi-cy by yi_yi-cy;\012    sub je-cy che-cy by je_che-cy;\012    sub je-cy je-cy by je_je-cy;\012    sub tshe-cy che-cy by tshe_che-cy;\012    sub tshe-cy je-cy by tshe_je-cy;\012    sub kje-cy che-cy by kje_che-cy;\012    sub ushort-cy che-cy by ushort_che-cy;\012    sub ushort-cy je-cy by ushort_je-cy;\012    sub dzhe-cy che-cy by dzhe_che-cy;\012    sub ze-cy ze-cy by ze_ze-cy;\012} liga6;\012lookup endings_cyr {\012    sub [ze-cy ha-cy]' @all_cyr by [ze-cy.init ha-cy.init];\012    ignore sub @having_finals_cyr' @all_cyr;\012    sub @having_finals_cyr' by @finals_cyr;\012} endings_cyr;\012\012script cyrl; # Cyrillic\012lookup liga6;\012lookup endings_cyr;";
 name = liga;
 },
 {
@@ -157,7 +156,7 @@ code = "sub ze-cy by ze-cy.init;\012sub ha-cy by ha-cy.init;\012";
 name = init;
 },
 {
-code = "sub b s x by b_s_x;\012sub b s z by b_s_z;\012sub f f t by f_f_t;\012sub f i x by f_i_x;\012sub f i z by f_i_z;\012sub f l x by f_l_x;\012sub f l z by f_l_z;\012sub o s x by o_s_x;\012sub o s z by o_s_z;\012sub oacute s x by oacute_s_x;\012sub oacute s z by oacute_s_z;\012sub E x by E_x;\012sub F i by F_i;\012sub T h by T_h;\012sub T i by T_i;\012sub a x by a_x;\012sub a z by a_z;\012sub b s by b_s;\012sub c x by c_x;\012sub c z by c_z;\012sub e x by e_x;\012sub e z by e_z;\012sub eacute x by eacute_x;\012sub f t by f_t;\012sub f u by f_u;\012sub f x by f_x;\012sub g p by g_p;\012sub g x by g_x;\012sub g z by g_z;\012sub i x by i_x;\012sub i z by i_z;\012sub iacute x by iacute_x;\012sub iacute z by iacute_z;\012sub j x by j_x;\012sub j z by j_z;\012sub l x by l_x;\012sub l z by l_z;\012sub m x by m_x;\012sub m z by m_z;\012sub n z by n_z;\012sub o ae by o_ae;\012sub o s by o_s;\012sub o x by o_x;\012sub oacute s by oacute_s;\012sub oacute x by oacute_x;\012sub r x by r_x;\012sub r z by r_z;\012sub s x by s_x;\012sub s z by s_z;\012sub t x by t_x;\012sub t z by t_z;\012sub u v by u_v;\012sub u x by u_x;\012sub y p by y_p;\012sub y x by y_x;\012sub y z by y_z;\012sub a.end x.end by a_x.end;\012sub e.end x.end by e_x.end;\012sub i.end x.end by i_x.end;\012sub o.end s.end by o_s.end;\012sub oacute.end s.end by oacute_s.end;\012sub u.end x.end by u_x.end;\012sub Ie-cy ze-cy by Ie_ze-cy;\012sub Ie-cy ha-cy by Ie_ha-cy;\012sub Io-cy ze-cy by Io_ze-cy;\012sub Io-cy ha-cy by Io_ha-cy;\012sub Es-cy ze-cy by Es_ze-cy;\012sub Es-cy ha-cy by Es_ha-cy;\012sub E-cy ze-cy by E_ze-cy;\012sub E-cy ha-cy by E_ha-cy;\012sub a-cy ha-cy by a_ha-cy;\012sub a-cy che-cy by a_che-cy;\012sub be-cy ge-cy by be_ge-cy;\012sub be-cy gje-cy by be_gje-cy;\012sub be-cy io-cy by be_io-cy;\012sub be-cy zhe-cy by be_zhe-cy;\012sub be-cy iishort-cy by be_iishort-cy;\012sub be-cy ushort-cy by be_ushort-cy;\012sub be-cy ereversed-cy by be_ereversed-cy;\012sub be-cy i-cy by be_i-cy;\012sub be-cy yi-cy by be_yi-cy;\012sub be-cy je-cy by be_je-cy;\012sub ve-cy ge-cy by ve_ge-cy;\012sub ve-cy gje-cy by ve_gje-cy;\012sub ve-cy zhe-cy by ve_zhe-cy;\012sub ve-cy ze-cy by ve_ze-cy;\012sub ve-cy ha-cy by ve_ha-cy;\012sub ge-cy ze-cy by ge_ze-cy;\012sub ge-cy ha-cy by ge_ha-cy;\012sub ge-cy che-cy by ge_che-cy;\012sub gje-cy ze-cy by gje_ze-cy;\012sub gje-cy ha-cy by gje_ha-cy;\012sub gje-cy che-cy by gje_che-cy;\012sub de-cy che-cy by de_che-cy;\012sub de-cy je-cy by de_je-cy;\012sub ie-cy ze-cy by ie_ze-cy;\012sub ie-cy ha-cy by ie_ha-cy;\012sub ie-cy che-cy by ie_che-cy;\012sub io-cy ze-cy by io_ze-cy;\012sub io-cy ha-cy by io_ha-cy;\012sub io-cy che-cy by io_che-cy;\012sub zhe-cy che-cy by zhe_che-cy;\012sub dze-cy ze-cy by dze_ze-cy;\012sub dze-cy ha-cy by dze_ha-cy;\012sub dze-cy che-cy by dze_che-cy;\012sub ii-cy che-cy by ii_che-cy;\012sub iishort-cy che-cy by iishort_che-cy;\012sub ka-cy che-cy by ka_che-cy;\012sub kje-cy che-cy by kje_che-cy;\012sub el-cy che-cy by el_che-cy;\012sub em-cy che-cy by em_che-cy;\012sub en-cy che-cy by en_che-cy;\012sub o-cy ge-cy by o_ge-cy;\012sub o-cy gje-cy by o_gje-cy;\012sub o-cy zhe-cy by o_zhe-cy;\012sub o-cy ze-cy by o_ze-cy;\012sub o-cy el-cy by o_el-cy;\012sub o-cy em-cy by o_em-cy;\012sub o-cy ha-cy by o_ha-cy;\012sub o-cy lje-cy by o_lje-cy;\012sub o-cy ereversed-cy by o_ereversed-cy;\012sub pe-cy che-cy by pe_che-cy;\012sub er-cy ze-cy by er_ze-cy;\012sub es-cy ze-cy by es_ze-cy;\012sub es-cy ha-cy by es_ha-cy;\012sub es-cy che-cy by es_che-cy;\012sub es-cy hardsign-cy by es_hardsign-cy;\012sub te-cy che-cy by te_che-cy;\012sub u-cy che-cy by u_che-cy;\012sub u-cy je-cy by u_je-cy;\012sub ushort-cy che-cy by ushort_che-cy;\012sub ushort-cy je-cy by ushort_je-cy;\012sub ef-cy ze-cy by ef_ze-cy;\012sub ha-cy che-cy by ha_che-cy;\012sub ha-cy hardsign-cy by ha_hardsign-cy;\012sub che-cy che-cy by che_che-cy;\012sub sha-cy che-cy by sha_che-cy;\012sub dzhe-cy che-cy by dzhe_che-cy;\012sub yeru-cy che-cy by yeru_che-cy;\012sub e-cy ze-cy by e_ze-cy;\012sub e-cy ha-cy by e_ha-cy;\012sub e-cy che-cy by e_che-cy;\012sub ereversed-cy ze-cy by ereversed_ze-cy;\012sub i-cy che-cy by i_che-cy;\012sub yi-cy che-cy by yi_che-cy;\012sub yi-cy yi-cy by yi_yi-cy;\012sub je-cy che-cy by je_che-cy;\012sub je-cy je-cy by je_je-cy;\012sub tshe-cy che-cy by tshe_che-cy;\012sub tshe-cy je-cy by tshe_je-cy;\012sub iu-cy ge-cy by iu_ge-cy;\012sub iu-cy gje-cy by iu_gje-cy;\012sub iu-cy zhe-cy by iu_zhe-cy;\012sub iu-cy ze-cy by iu_ze-cy;\012sub iu-cy el-cy by iu_el-cy;\012sub iu-cy em-cy by iu_em-cy;\012sub iu-cy ha-cy by iu_ha-cy;\012sub iu-cy lje-cy by iu_lje-cy;\012sub iu-cy ereversed-cy by iu_ereversed-cy;\012sub ia-cy che-cy by ia_che-cy;\012sub f i by fi.end;\012sub f l by fl.end;";
+code = "sub b s x by b_s_x;\012sub b s z by b_s_z;\012sub f f t by f_f_t;\012sub f i x by f_i_x;\012sub f i z by f_i_z;\012sub f l x by f_l_x;\012sub f l z by f_l_z;\012sub o s x by o_s_x;\012sub o s z by o_s_z;\012sub oacute s x by oacute_s_x;\012sub oacute s z by oacute_s_z;\012sub E x by E_x;\012sub F i by F_i;\012sub T h by T_h;\012sub T i by T_i;\012sub a x by a_x;\012sub a z by a_z;\012sub b s by b_s;\012sub c x by c_x;\012sub c z by c_z;\012sub e x by e_x;\012sub e z by e_z;\012sub eacute x by eacute_x;\012sub f t by f_t;\012sub f u by f_u;\012sub f x by f_x;\012sub g p by g_p;\012sub g x by g_x;\012sub g z by g_z;\012sub i x by i_x;\012sub i z by i_z;\012sub iacute x by iacute_x;\012sub iacute z by iacute_z;\012sub j x by j_x;\012sub j z by j_z;\012sub l x by l_x;\012sub l z by l_z;\012sub m x by m_x;\012sub m z by m_z;\012sub n z by n_z;\012sub o ae by o_ae;\012sub o s by o_s;\012sub o x by o_x;\012sub oacute s by oacute_s;\012sub oacute x by oacute_x;\012sub r x by r_x;\012sub r z by r_z;\012sub s x by s_x;\012sub s z by s_z;\012sub t x by t_x;\012sub t z by t_z;\012sub u v by u_v;\012sub u x by u_x;\012sub y p by y_p;\012sub y x by y_x;\012sub y z by y_z;\012sub a.end x.end by a_x.end;\012sub e.end x.end by e_x.end;\012sub i.end x.end by i_x.end;\012sub o.end s.end by o_s.end;\012sub oacute.end s.end by oacute_s.end;\012sub u.end x.end by u_x.end;\012sub Ie-cy ze-cy by Ie_ze-cy;\012sub Ie-cy ha-cy by Ie_ha-cy;\012sub Io-cy ze-cy by Io_ze-cy;\012sub Io-cy ha-cy by Io_ha-cy;\012sub Es-cy ze-cy by Es_ze-cy;\012sub Es-cy ha-cy by Es_ha-cy;\012sub E-cy ze-cy by E_ze-cy;\012sub E-cy ha-cy by E_ha-cy;\012sub a-cy ha-cy by a_ha-cy;\012sub a-cy che-cy by a_che-cy;\012sub be-cy ge-cy by be_ge-cy;\012sub be-cy gje-cy by be_gje-cy;\012sub be-cy io-cy by be_io-cy;\012sub be-cy zhe-cy by be_zhe-cy;\012sub be-cy iishort-cy by be_iishort-cy;\012sub be-cy ushort-cy by be_ushort-cy;\012sub be-cy ereversed-cy by be_ereversed-cy;\012sub be-cy i-cy by be_i-cy;\012sub be-cy yi-cy by be_yi-cy;\012sub be-cy je-cy by be_je-cy;\012sub ve-cy ge-cy by ve_ge-cy;\012sub ve-cy gje-cy by ve_gje-cy;\012sub ve-cy zhe-cy by ve_zhe-cy;\012sub ve-cy ze-cy by ve_ze-cy;\012sub ve-cy ha-cy by ve_ha-cy;\012sub ge-cy ze-cy by ge_ze-cy;\012sub ge-cy ha-cy by ge_ha-cy;\012sub ge-cy che-cy by ge_che-cy;\012sub gje-cy ze-cy by gje_ze-cy;\012sub gje-cy ha-cy by gje_ha-cy;\012sub gje-cy che-cy by gje_che-cy;\012sub ze-cy ze-cy by ze_ze-cy;\012sub de-cy che-cy by de_che-cy;\012sub de-cy je-cy by de_je-cy;\012sub ie-cy ze-cy by ie_ze-cy;\012sub ie-cy ha-cy by ie_ha-cy;\012sub ie-cy che-cy by ie_che-cy;\012sub io-cy ze-cy by io_ze-cy;\012sub io-cy ha-cy by io_ha-cy;\012sub io-cy che-cy by io_che-cy;\012sub zhe-cy che-cy by zhe_che-cy;\012sub dze-cy ze-cy by dze_ze-cy;\012sub dze-cy ha-cy by dze_ha-cy;\012sub dze-cy che-cy by dze_che-cy;\012sub ii-cy che-cy by ii_che-cy;\012sub iishort-cy che-cy by iishort_che-cy;\012sub ka-cy che-cy by ka_che-cy;\012sub kje-cy che-cy by kje_che-cy;\012sub el-cy che-cy by el_che-cy;\012sub em-cy che-cy by em_che-cy;\012sub en-cy che-cy by en_che-cy;\012sub o-cy ge-cy by o_ge-cy;\012sub o-cy gje-cy by o_gje-cy;\012sub o-cy zhe-cy by o_zhe-cy;\012sub o-cy ze-cy by o_ze-cy;\012sub o-cy el-cy by o_el-cy;\012sub o-cy em-cy by o_em-cy;\012sub o-cy ha-cy by o_ha-cy;\012sub o-cy lje-cy by o_lje-cy;\012sub o-cy ereversed-cy by o_ereversed-cy;\012sub pe-cy che-cy by pe_che-cy;\012sub er-cy ze-cy by er_ze-cy;\012sub es-cy ze-cy by es_ze-cy;\012sub es-cy ha-cy by es_ha-cy;\012sub es-cy che-cy by es_che-cy;\012sub es-cy hardsign-cy by es_hardsign-cy;\012sub te-cy che-cy by te_che-cy;\012sub u-cy che-cy by u_che-cy;\012sub u-cy je-cy by u_je-cy;\012sub ushort-cy che-cy by ushort_che-cy;\012sub ushort-cy je-cy by ushort_je-cy;\012sub ef-cy ze-cy by ef_ze-cy;\012sub ha-cy che-cy by ha_che-cy;\012sub ha-cy hardsign-cy by ha_hardsign-cy;\012sub che-cy che-cy by che_che-cy;\012sub sha-cy che-cy by sha_che-cy;\012sub dzhe-cy che-cy by dzhe_che-cy;\012sub yeru-cy che-cy by yeru_che-cy;\012sub e-cy ze-cy by e_ze-cy;\012sub e-cy ha-cy by e_ha-cy;\012sub e-cy che-cy by e_che-cy;\012sub ereversed-cy ze-cy by ereversed_ze-cy;\012sub i-cy che-cy by i_che-cy;\012sub yi-cy che-cy by yi_che-cy;\012sub yi-cy yi-cy by yi_yi-cy;\012sub je-cy che-cy by je_che-cy;\012sub je-cy je-cy by je_je-cy;\012sub tshe-cy che-cy by tshe_che-cy;\012sub tshe-cy je-cy by tshe_je-cy;\012sub iu-cy ge-cy by iu_ge-cy;\012sub iu-cy gje-cy by iu_gje-cy;\012sub iu-cy zhe-cy by iu_zhe-cy;\012sub iu-cy ze-cy by iu_ze-cy;\012sub iu-cy el-cy by iu_el-cy;\012sub iu-cy em-cy by iu_em-cy;\012sub iu-cy ha-cy by iu_ha-cy;\012sub iu-cy lje-cy by iu_lje-cy;\012sub iu-cy ereversed-cy by iu_ereversed-cy;\012sub ia-cy che-cy by ia_che-cy;\012sub f i by fi.end;\012sub f l by fl.end;";
 name = dlig;
 }
 );
@@ -85161,7 +85160,7 @@ unicode = 0436;
 {
 color = 5;
 glyphname = "ze-cy";
-lastChange = "2016-09-27 09:31:09 +0000";
+lastChange = "2016-12-12 21:47:15 +0000";
 layers = (
 {
 anchors = (
@@ -105172,6 +105171,263 @@ width = 1392;
 );
 },
 {
+color = 3;
+glyphname = "ze_ze-cy";
+lastChange = "2016-12-12 21:00:25 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"892 83 OFFCURVE",
+"848 50 OFFCURVE",
+"776 29 CURVE",
+"763 82 OFFCURVE",
+"725 117 OFFCURVE",
+"694 129 CURVE",
+"734 137 OFFCURVE",
+"849 219 OFFCURVE",
+"849 350 CURVE SMOOTH",
+"849 451 OFFCURVE",
+"787 509 OFFCURVE",
+"691 509 CURVE SMOOTH",
+"547 509 OFFCURVE",
+"488 391 OFFCURVE",
+"447 220 CURVE SMOOTH",
+"417 99 OFFCURVE",
+"397 53 OFFCURVE",
+"353 29 CURVE",
+"340 82 OFFCURVE",
+"302 118 OFFCURVE",
+"271 129 CURVE",
+"311 137 OFFCURVE",
+"426 219 OFFCURVE",
+"426 350 CURVE SMOOTH",
+"426 451 OFFCURVE",
+"364 509 OFFCURVE",
+"268 509 CURVE SMOOTH",
+"90 509 OFFCURVE",
+"45 358 OFFCURVE",
+"0 179 CURVE",
+"42 179 LINE",
+"87 351 OFFCURVE",
+"142 418 OFFCURVE",
+"214 418 CURVE SMOOTH",
+"265 418 OFFCURVE",
+"275 371 OFFCURVE",
+"275 332 CURVE SMOOTH",
+"275 237 OFFCURVE",
+"224 160 OFFCURVE",
+"152 160 CURVE SMOOTH",
+"123 160 LINE",
+"110 100 LINE",
+"141 100 LINE SMOOTH",
+"187 100 OFFCURVE",
+"211 65 OFFCURVE",
+"213 -6 CURVE",
+"138 -30 OFFCURVE",
+"56 -72 OFFCURVE",
+"56 -153 CURVE SMOOTH",
+"56 -218 OFFCURVE",
+"107 -250 OFFCURVE",
+"168 -250 CURVE SMOOTH",
+"279 -250 OFFCURVE",
+"354 -162 OFFCURVE",
+"357 -11 CURVE",
+"400 8 OFFCURVE",
+"447 61 OFFCURVE",
+"480 213 CURVE SMOOTH",
+"515 375 OFFCURVE",
+"572 418 OFFCURVE",
+"637 418 CURVE SMOOTH",
+"688 418 OFFCURVE",
+"698 371 OFFCURVE",
+"698 332 CURVE SMOOTH",
+"698 237 OFFCURVE",
+"647 160 OFFCURVE",
+"575 160 CURVE SMOOTH",
+"546 160 LINE",
+"533 100 LINE",
+"564 100 LINE SMOOTH",
+"611 100 OFFCURVE",
+"633 67 OFFCURVE",
+"636 -6 CURVE",
+"561 -30 OFFCURVE",
+"479 -72 OFFCURVE",
+"479 -153 CURVE SMOOTH",
+"479 -218 OFFCURVE",
+"530 -250 OFFCURVE",
+"591 -250 CURVE SMOOTH",
+"702 -250 OFFCURVE",
+"777 -163 OFFCURVE",
+"780 -11 CURVE",
+"842 5 OFFCURVE",
+"923 43 OFFCURVE",
+"963 179 CURVE",
+"921 179 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"122 -172 OFFCURVE",
+"111 -158 OFFCURVE",
+"111 -139 CURVE SMOOTH",
+"111 -99 OFFCURVE",
+"158 -72 OFFCURVE",
+"210 -54 CURVE",
+"202 -117 OFFCURVE",
+"174 -172 OFFCURVE",
+"145 -172 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"545 -172 OFFCURVE",
+"534 -158 OFFCURVE",
+"534 -139 CURVE SMOOTH",
+"534 -99 OFFCURVE",
+"581 -72 OFFCURVE",
+"633 -54 CURVE",
+"625 -117 OFFCURVE",
+"597 -172 OFFCURVE",
+"568 -172 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"892 83 OFFCURVE",
+"848 50 OFFCURVE",
+"776 29 CURVE",
+"763 82 OFFCURVE",
+"725 117 OFFCURVE",
+"694 129 CURVE",
+"734 137 OFFCURVE",
+"849 219 OFFCURVE",
+"849 350 CURVE SMOOTH",
+"849 451 OFFCURVE",
+"787 509 OFFCURVE",
+"691 509 CURVE SMOOTH",
+"547 509 OFFCURVE",
+"488 391 OFFCURVE",
+"447 220 CURVE SMOOTH",
+"417 99 OFFCURVE",
+"397 53 OFFCURVE",
+"353 29 CURVE",
+"340 82 OFFCURVE",
+"302 118 OFFCURVE",
+"271 129 CURVE",
+"311 137 OFFCURVE",
+"426 219 OFFCURVE",
+"426 350 CURVE SMOOTH",
+"426 451 OFFCURVE",
+"364 509 OFFCURVE",
+"268 509 CURVE SMOOTH",
+"90 509 OFFCURVE",
+"45 358 OFFCURVE",
+"0 179 CURVE",
+"42 179 LINE",
+"87 351 OFFCURVE",
+"142 418 OFFCURVE",
+"214 418 CURVE SMOOTH",
+"265 418 OFFCURVE",
+"275 371 OFFCURVE",
+"275 332 CURVE SMOOTH",
+"275 237 OFFCURVE",
+"224 160 OFFCURVE",
+"152 160 CURVE SMOOTH",
+"123 160 LINE",
+"110 100 LINE",
+"141 100 LINE SMOOTH",
+"187 100 OFFCURVE",
+"211 65 OFFCURVE",
+"213 -6 CURVE",
+"138 -30 OFFCURVE",
+"56 -72 OFFCURVE",
+"56 -153 CURVE SMOOTH",
+"56 -218 OFFCURVE",
+"107 -250 OFFCURVE",
+"168 -250 CURVE SMOOTH",
+"279 -250 OFFCURVE",
+"354 -162 OFFCURVE",
+"357 -11 CURVE",
+"400 8 OFFCURVE",
+"447 61 OFFCURVE",
+"480 213 CURVE SMOOTH",
+"515 375 OFFCURVE",
+"573 418 OFFCURVE",
+"637 418 CURVE SMOOTH",
+"688 418 OFFCURVE",
+"698 371 OFFCURVE",
+"698 332 CURVE SMOOTH",
+"698 237 OFFCURVE",
+"647 160 OFFCURVE",
+"575 160 CURVE SMOOTH",
+"546 160 LINE",
+"533 100 LINE",
+"564 100 LINE SMOOTH",
+"611 100 OFFCURVE",
+"633 67 OFFCURVE",
+"636 -6 CURVE",
+"561 -30 OFFCURVE",
+"479 -72 OFFCURVE",
+"479 -153 CURVE SMOOTH",
+"479 -218 OFFCURVE",
+"530 -250 OFFCURVE",
+"591 -250 CURVE SMOOTH",
+"702 -250 OFFCURVE",
+"777 -163 OFFCURVE",
+"780 -11 CURVE",
+"842 5 OFFCURVE",
+"923 43 OFFCURVE",
+"963 179 CURVE",
+"921 179 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"122 -172 OFFCURVE",
+"111 -158 OFFCURVE",
+"111 -139 CURVE SMOOTH",
+"111 -99 OFFCURVE",
+"158 -72 OFFCURVE",
+"210 -54 CURVE",
+"202 -117 OFFCURVE",
+"174 -172 OFFCURVE",
+"145 -172 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"545 -172 OFFCURVE",
+"534 -158 OFFCURVE",
+"534 -139 CURVE SMOOTH",
+"534 -99 OFFCURVE",
+"581 -72 OFFCURVE",
+"633 -54 CURVE",
+"625 -117 OFFCURVE",
+"597 -172 OFFCURVE",
+"568 -172 CURVE SMOOTH"
+);
+}
+);
+width = 921;
+}
+);
+leftMetricsKey = "ze-cy";
+rightMetricsKey = "ze-cy";
+},
+{
 color = 4;
 glyphname = "ii_che-cy";
 lastChange = "2016-09-22 17:50:23 +0000";
@@ -123967,6 +124223,137 @@ width = 1341;
 );
 },
 {
+color = 3;
+glyphname = "ze_ze-cy.liga";
+lastChange = "2016-12-12 21:00:25 +0000";
+layers = (
+{
+background = {
+components = (
+{
+name = "ze-cy.end";
+transform = "{1, 0, 0, 1, 423, 0}";
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"122 -172 OFFCURVE",
+"111 -158 OFFCURVE",
+"111 -139 CURVE SMOOTH",
+"111 -99 OFFCURVE",
+"158 -72 OFFCURVE",
+"210 -54 CURVE",
+"202 -117 OFFCURVE",
+"174 -172 OFFCURVE",
+"145 -172 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"635 -17 CURVE SMOOTH",
+"635 -91 OFFCURVE",
+"607 -161 OFFCURVE",
+"569 -161 CURVE SMOOTH",
+"542 -161 OFFCURVE",
+"528 -145 OFFCURVE",
+"528 -120 CURVE SMOOTH",
+"528 -77 OFFCURVE",
+"586 -38 OFFCURVE",
+"645 -21 CURVE",
+"647 9 LINE",
+"566 -13 OFFCURVE",
+"473 -50 OFFCURVE",
+"473 -137 CURVE SMOOTH",
+"473 -213 OFFCURVE",
+"527 -250 OFFCURVE",
+"591 -250 CURVE SMOOTH",
+"711 -250 OFFCURVE",
+"780 -129 OFFCURVE",
+"780 -22 CURVE SMOOTH",
+"780 45 OFFCURVE",
+"753 107 OFFCURVE",
+"694 129 CURVE",
+"734 137 OFFCURVE",
+"849 219 OFFCURVE",
+"849 350 CURVE SMOOTH",
+"849 451 OFFCURVE",
+"787 509 OFFCURVE",
+"691 509 CURVE SMOOTH",
+"547 509 OFFCURVE",
+"488 391 OFFCURVE",
+"447 220 CURVE SMOOTH",
+"417 99 OFFCURVE",
+"397 53 OFFCURVE",
+"353 29 CURVE",
+"340 82 OFFCURVE",
+"302 118 OFFCURVE",
+"271 129 CURVE",
+"311 137 OFFCURVE",
+"426 219 OFFCURVE",
+"426 350 CURVE SMOOTH",
+"426 451 OFFCURVE",
+"364 509 OFFCURVE",
+"268 509 CURVE SMOOTH",
+"90 509 OFFCURVE",
+"45 358 OFFCURVE",
+"0 179 CURVE",
+"42 179 LINE",
+"87 351 OFFCURVE",
+"142 418 OFFCURVE",
+"214 418 CURVE SMOOTH",
+"265 418 OFFCURVE",
+"275 371 OFFCURVE",
+"275 332 CURVE SMOOTH",
+"275 237 OFFCURVE",
+"224 160 OFFCURVE",
+"152 160 CURVE SMOOTH",
+"123 160 LINE",
+"110 100 LINE",
+"141 100 LINE SMOOTH",
+"187 100 OFFCURVE",
+"211 65 OFFCURVE",
+"213 -6 CURVE",
+"138 -30 OFFCURVE",
+"56 -72 OFFCURVE",
+"56 -153 CURVE SMOOTH",
+"56 -218 OFFCURVE",
+"107 -250 OFFCURVE",
+"168 -250 CURVE SMOOTH",
+"279 -250 OFFCURVE",
+"354 -162 OFFCURVE",
+"357 -11 CURVE",
+"400 8 OFFCURVE",
+"447 61 OFFCURVE",
+"480 213 CURVE SMOOTH",
+"515 375 OFFCURVE",
+"573 418 OFFCURVE",
+"637 418 CURVE SMOOTH",
+"688 418 OFFCURVE",
+"698 371 OFFCURVE",
+"698 332 CURVE SMOOTH",
+"698 237 OFFCURVE",
+"647 160 OFFCURVE",
+"575 160 CURVE SMOOTH",
+"546 160 LINE",
+"533 100 LINE",
+"564 100 LINE SMOOTH",
+"617 100 OFFCURVE",
+"635 56 OFFCURVE"
+);
+}
+);
+width = 849;
+}
+);
+leftMetricsKey = "ze-cy";
+rightMetricsKey = "ze-cy.end";
+},
+{
 color = 4;
 glyphname = "ii_che-cy.liga";
 lastChange = "2016-09-22 17:50:23 +0000";
@@ -129929,9 +130316,9 @@ width = 1112;
 );
 },
 {
-color = 3;
+color = 4;
 glyphname = "dze_ze-cy.liga";
-lastChange = "2016-12-12 20:16:01 +0000";
+lastChange = "2016-12-12 21:00:29 +0000";
 layers = (
 {
 background = {
@@ -130152,9 +130539,9 @@ width = 768;
 );
 },
 {
-color = 3;
+color = 4;
 glyphname = "dze_ha-cy.liga";
-lastChange = "2016-12-12 20:16:01 +0000";
+lastChange = "2016-12-12 21:00:29 +0000";
 layers = (
 {
 background = {
@@ -130355,9 +130742,9 @@ width = 712;
 );
 },
 {
-color = 3;
+color = 4;
 glyphname = "dze_che-cy.liga";
-lastChange = "2016-12-12 20:16:01 +0000";
+lastChange = "2016-12-12 21:00:29 +0000";
 layers = (
 {
 background = {
@@ -148818,6 +149205,7 @@ fraction = -60;
 };
 "@MMK_L_lc_lowconnect" = {
 "@MMK_R_lc_che" = -54;
+"@MMK_R_lc_ze" = 0;
 };
 "@MMK_L_lc_softsign" = {
 "@MMK_R_UC_T" = -60;
