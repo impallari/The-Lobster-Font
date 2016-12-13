@@ -39,7 +39,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2010 The Lobster Font Authors (impallari@gmail.com), with Reserved Font Name ‘Lobster’.";
+copyright = "Copyright 2010 The Lobster Font Authors (impallari@gmail.com), with Reserved Font Name \"Lobster\".";
 customParameters = (
 {
 name = licenseURL;
