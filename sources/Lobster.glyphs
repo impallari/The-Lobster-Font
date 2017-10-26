@@ -85107,30 +85107,6 @@ leftKerningGroup = UC_Stem;
 rightKerningGroup = UC_Stem;
 },
 {
-color = 10;
-export = 0;
-glyphname = "De-cy.loclBGR";
-lastChange = "2016-09-25 07:01:52 +0000";
-layers = (
-{
-background = {
-components = (
-{
-name = D;
-}
-);
-};
-components = (
-{
-name = "De-cy";
-}
-);
-layerId = UUID0;
-width = 669;
-}
-);
-},
-{
 color = 4;
 glyphname = "a-cy";
 lastChange = "2016-09-27 09:23:53 +0000";
@@ -97088,23 +97064,6 @@ width = 752;
 );
 leftKerningGroup = lc_i;
 rightKerningGroup = lc_lowconnect;
-},
-{
-color = 11;
-export = 0;
-glyphname = "de-cy.loclSRB";
-lastChange = "2016-09-22 18:35:53 +0000";
-layers = (
-{
-components = (
-{
-name = g;
-}
-);
-layerId = UUID0;
-width = 507;
-}
-);
 },
 {
 color = 4;
@@ -147604,9 +147563,8 @@ unicode = 0331;
 },
 {
 color = 4;
-export = 0;
 glyphname = strokeshortcomb;
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2017-10-26 14:25:16 +0000";
 layers = (
 {
 anchors = (
