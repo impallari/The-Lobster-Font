@@ -1,5 +1,9 @@
 {
 .appVersion = "1075";
+DisplayStrings = (
+/minute,
+/second
+);
 classes = (
 {
 code = "a b c d e f g h i j k l m n o p q r s t u v w x y z a.end a_x a_x.end a_z aacute aacute.end acircumflex adieresis ae agrave aogonek aring atilde b_s b_s.end b_s_x b_s_z c.end c_x c_z cacute ccaron ccedilla ccircumflex d.end idotless idotless.end e.end e_x e_x.end e_z eacute eacute.end eacute_x ecircumflex edieresis egrave eogonek eth ff ffi ffl f_f_t fi fi.end f_i_x f_i_z fl fl.end f_l_x f_l_z f_t f_u f_u.end f_x g.end g_p g_x g_z h.end i.end ij ij.end i_x i_x.end i_z iacute iacute.end iacute_x iacute_z icircumflex idieresis igrave j.end j_x j_z k.end k.salt l.end l_x l_z lslash m.end m_x m_z mu n.end n_z nacute ntilde o.end o_ae o_s o_s.end o_s_x o_s_z o_x oacute oacute.end oacute_s oacute_s.end oacute_s_x oacute_s_z oacute_x ocircumflex odieresis oe ograve oslash otilde p.salt r_x r_z s.end s_x s_z sacute scaron t.end t_x t_z thorn u.end u_v u_x u_x.end uacute uacute.end ucircumflex udieresis ugrave x.end y.end y_p y_x y_z yacute ydieresis zacute zcaron zdotaccent";
@@ -146178,13 +146182,10 @@ unicode = 2032;
 {
 color = 4;
 glyphname = second;
-lastChange = "2017-10-26 07:54:01 +0000";
+lastChange = "2017-10-26 14:21:53 +0000";
 layers = (
 {
 components = (
-{
-name = minute;
-},
 {
 name = minute;
 },
