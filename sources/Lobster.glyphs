@@ -89,7 +89,7 @@ value = (
 );
 }
 );
-date = "2017-10-26 14:13:12 +0000";
+date = "2017-10-26 14:13:35 +0000";
 designer = "Impallari Type";
 designerURL = "http://www.impallari.com";
 familyName = Lobster;
@@ -150908,5 +150908,5 @@ manufacturer = "Impallari Type";
 manufacturerURL = "http://www.impallari.com";
 unitsPerEm = 1000;
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 100;
 }
