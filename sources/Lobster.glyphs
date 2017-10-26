@@ -1,13 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-"/ezh/ezh.end  /gstroke/gstroke.end \012   /g.end",
-/hyphentwo,
-"H/Ze-cy H/Ezh H/Ezhcaron H",
-"hhh\012zzzz\012z/ezh/ezh.end zz/ezhcaron zzhhh",
-"ZZH/Ezh HHZZ/ezh",
-/Germandbls
-);
 classes = (
 {
 code = "a b c d e f g h i j k l m n o p q r s t u v w x y z a.end a_x a_x.end a_z aacute aacute.end acircumflex adieresis ae agrave aogonek aring atilde b_s b_s.end b_s_x b_s_z c.end c_x c_z cacute ccaron ccedilla ccircumflex d.end idotless idotless.end e.end e_x e_x.end e_z eacute eacute.end eacute_x ecircumflex edieresis egrave eogonek eth ff ffi ffl f_f_t fi fi.end f_i_x f_i_z fl fl.end f_l_x f_l_z f_t f_u f_u.end f_x g.end g_p g_x g_z h.end i.end ij ij.end i_x i_x.end i_z iacute iacute.end iacute_x iacute_z icircumflex idieresis igrave j.end j_x j_z k.end k.salt l.end l_x l_z lslash m.end m_x m_z mu n.end n_z nacute ntilde o.end o_ae o_s o_s.end o_s_x o_s_z o_x oacute oacute.end oacute_s oacute_s.end oacute_s_x oacute_s_z oacute_x ocircumflex odieresis oe ograve oslash otilde p.salt r_x r_z s.end s_x s_z sacute scaron t.end t_x t_z thorn u.end u_v u_x u_x.end uacute uacute.end ucircumflex udieresis ugrave x.end y.end y_p y_x y_z yacute ydieresis zacute zcaron zdotaccent";
@@ -97,7 +89,7 @@ value = (
 );
 }
 );
-date = "2016-10-03 16:14:37 +0000";
+date = "2017-10-26 14:13:12 +0000";
 designer = "Impallari Type";
 designerURL = "http://www.impallari.com";
 familyName = Lobster;
@@ -9977,19 +9969,20 @@ unicode = 1EBC;
 {
 color = 4;
 glyphname = Ezh;
-lastChange = "2017-10-26 08:41:12 +0000";
+lastChange = "2017-10-26 14:05:36 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{243, -10}";
+position = "{273, -10}";
 }
 );
 background = {
 components = (
 {
 name = Z;
+transform = "{1, 0, 0, 1, 30, 0}";
 }
 );
 };
@@ -9998,66 +9991,66 @@ paths = (
 {
 closed = 1;
 nodes = (
-"361 -16 OFFCURVE",
-"474 108 OFFCURVE",
-"474 248 CURVE SMOOTH",
-"474 383 OFFCURVE",
-"392 460 OFFCURVE",
-"217 460 CURVE SMOOTH",
-"180 460 LINE",
-"164 386 LINE",
-"186 386 LINE SMOOTH",
-"259 386 OFFCURVE",
-"311 347 OFFCURVE",
-"311 241 CURVE SMOOTH",
-"311 144 OFFCURVE",
-"262 43 OFFCURVE",
-"169 43 CURVE SMOOTH",
-"116 43 OFFCURVE",
-"90 74 OFFCURVE",
-"90 111 CURVE SMOOTH",
-"90 140 OFFCURVE",
-"100 167 OFFCURVE",
-"127 183 CURVE",
-"116 199 OFFCURVE",
-"101 209 OFFCURVE",
-"75 209 CURVE SMOOTH",
-"25 209 OFFCURVE",
-"-10 171 OFFCURVE",
-"-10 112 CURVE SMOOTH",
-"-10 25 OFFCURVE",
-"65 -16 OFFCURVE",
-"173 -16 CURVE SMOOTH"
+"391 -16 OFFCURVE",
+"504 108 OFFCURVE",
+"504 248 CURVE SMOOTH",
+"504 383 OFFCURVE",
+"422 460 OFFCURVE",
+"247 460 CURVE SMOOTH",
+"210 460 LINE",
+"194 386 LINE",
+"216 386 LINE SMOOTH",
+"289 386 OFFCURVE",
+"341 347 OFFCURVE",
+"341 241 CURVE SMOOTH",
+"341 144 OFFCURVE",
+"292 43 OFFCURVE",
+"199 43 CURVE SMOOTH",
+"146 43 OFFCURVE",
+"120 74 OFFCURVE",
+"120 111 CURVE SMOOTH",
+"120 140 OFFCURVE",
+"130 167 OFFCURVE",
+"157 183 CURVE",
+"146 199 OFFCURVE",
+"131 209 OFFCURVE",
+"105 209 CURVE SMOOTH",
+"55 209 OFFCURVE",
+"20 171 OFFCURVE",
+"20 112 CURVE SMOOTH",
+"20 25 OFFCURVE",
+"95 -16 OFFCURVE",
+"203 -16 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"272 386 LINE",
-"545 748 LINE",
-"193 748 LINE SMOOTH",
-"113 748 OFFCURVE",
-"70 697 OFFCURVE",
-"70 646 CURVE SMOOTH",
-"70 618 OFFCURVE",
-"82 587 OFFCURVE",
-"121 587 CURVE SMOOTH",
-"145 587 OFFCURVE",
-"180 600 OFFCURVE",
-"180 644 CURVE SMOOTH",
-"180 668 OFFCURVE",
-"170 676 OFFCURVE",
-"163 676 CURVE",
-"163 694 OFFCURVE",
-"208 698 OFFCURVE",
-"255 698 CURVE SMOOTH",
-"355 698 LINE",
-"180 460 LINE",
-"177 386 LINE"
+"302 386 LINE",
+"575 748 LINE",
+"223 748 LINE SMOOTH",
+"143 748 OFFCURVE",
+"100 697 OFFCURVE",
+"100 646 CURVE SMOOTH",
+"100 618 OFFCURVE",
+"112 587 OFFCURVE",
+"151 587 CURVE SMOOTH",
+"175 587 OFFCURVE",
+"210 600 OFFCURVE",
+"210 644 CURVE SMOOTH",
+"210 668 OFFCURVE",
+"200 676 OFFCURVE",
+"193 676 CURVE",
+"193 694 OFFCURVE",
+"238 698 OFFCURVE",
+"285 698 CURVE SMOOTH",
+"385 698 LINE",
+"210 460 LINE",
+"207 386 LINE"
 );
 }
 );
-width = 525;
+width = 555;
 }
 );
 unicode = 01B7;
@@ -11497,7 +11490,7 @@ unicode = 1E20;
 {
 color = 4;
 glyphname = Gstroke;
-lastChange = "2017-10-23 11:58:02 +0000";
+lastChange = "2017-10-26 14:04:41 +0000";
 layers = (
 {
 components = (
@@ -11517,9 +11510,11 @@ nodes = (
 );
 }
 );
-width = 578;
+width = 601;
 }
 );
+leftMetricsKey = G;
+rightMetricsKey = G;
 unicode = 01E4;
 },
 {
@@ -22578,8 +22573,9 @@ width = 570;
 unicode = 1E62;
 },
 {
+color = 4;
 glyphname = Germandbls;
-lastChange = "2017-10-26 14:00:40 +0000";
+lastChange = "2017-10-26 14:09:22 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -22587,51 +22583,52 @@ paths = (
 {
 closed = 1;
 nodes = (
-"306 748 LINE",
-"178 748 OFFCURVE",
-"102 668 OFFCURVE",
-"50 413 CURVE SMOOTH",
-"-85 -250 LINE",
-"66 -214 LINE",
-"205 434 LINE SMOOTH",
-"251 641 OFFCURVE",
-"282 694 OFFCURVE",
-"334 694 CURVE"
+"326 748 LINE",
+"198 748 OFFCURVE",
+"129 668 OFFCURVE",
+"77 413 CURVE SMOOTH",
+"-58 -250 LINE",
+"86 -214 LINE",
+"225 434 LINE SMOOTH",
+"271 641 OFFCURVE",
+"302 694 OFFCURVE",
+"354 694 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"552 748 LINE",
-"306 748 LINE",
-"334 694 LINE",
-"398 694 LINE",
-"251 401 LINE",
-"305 380 OFFCURVE",
-"340 286 OFFCURVE",
-"340 208 CURVE SMOOTH",
-"340 129 OFFCURVE",
-"305 63 OFFCURVE",
-"237 63 CURVE SMOOTH",
-"213 63 OFFCURVE",
-"192 72 OFFCURVE",
-"182 86 CURVE",
-"166 76 OFFCURVE",
-"156 61 OFFCURVE",
-"156 43 CURVE SMOOTH",
-"156 8 OFFCURVE",
-"195 -16 OFFCURVE",
-"260 -16 CURVE SMOOTH",
-"399 -16 OFFCURVE",
-"480 94 OFFCURVE",
-"480 210 CURVE SMOOTH",
-"480 284 OFFCURVE",
-"446 352 OFFCURVE",
-"379 406 CURVE"
+"600 748 LINE",
+"326 748 LINE",
+"354 694 LINE",
+"418 694 LINE",
+"271 401 LINE",
+"325 380 OFFCURVE",
+"360 286 OFFCURVE",
+"360 208 CURVE SMOOTH",
+"360 129 OFFCURVE",
+"325 63 OFFCURVE",
+"257 63 CURVE SMOOTH",
+"233 63 OFFCURVE",
+"212 72 OFFCURVE",
+"202 86 CURVE",
+"186 76 OFFCURVE",
+"176 61 OFFCURVE",
+"176 43 CURVE SMOOTH",
+"176 8 OFFCURVE",
+"215 -16 OFFCURVE",
+"280 -16 CURVE SMOOTH",
+"419 -16 OFFCURVE",
+"500 94 OFFCURVE",
+"500 210 CURVE SMOOTH",
+"500 298 OFFCURVE",
+"452 378 OFFCURVE",
+"357 435 CURVE",
+"398 348 LINE"
 );
 }
 );
-width = 480;
+width = 559;
 }
 );
 unicode = 1E9E;
