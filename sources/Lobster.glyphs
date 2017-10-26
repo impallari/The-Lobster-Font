@@ -1,7 +1,8 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-/commercialMinusSign
+"4/minute 5/second",
+"6/minute 5/second 5"
 );
 classes = (
 {
@@ -142889,8 +142890,9 @@ width = 434;
 unicode = 2219;
 },
 {
+color = 4;
 glyphname = commercialMinusSign;
-lastChange = "2017-10-26 07:49:21 +0000";
+lastChange = "2017-10-26 07:51:48 +0000";
 layers = (
 {
 background = {
@@ -145729,19 +145731,32 @@ width = 421;
 unicode = 005E;
 },
 {
+color = 4;
 glyphname = minute;
-lastChange = "2017-10-23 11:25:40 +0000";
+lastChange = "2017-10-26 07:53:56 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"125 500 LINE",
+"246 750 LINE",
+"141 750 LINE",
+"70 500 LINE"
+);
+}
+);
+width = 196;
 }
 );
 unicode = 2032;
 },
 {
+color = 4;
 glyphname = second;
-lastChange = "2017-10-23 11:30:57 +0000";
+lastChange = "2017-10-26 07:54:01 +0000";
 layers = (
 {
 components = (
@@ -145750,12 +145765,18 @@ name = minute;
 },
 {
 name = minute;
+},
+{
+name = minute;
+transform = "{1, 0, 0, 1, 145, 0}";
 }
 );
 layerId = UUID0;
-width = 600;
+width = 341;
 }
 );
+leftMetricsKey = minute;
+rightMetricsKey = minute;
 unicode = 2033;
 },
 {
