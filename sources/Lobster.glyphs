@@ -1,8 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-"/glyph455/ve-cy/ve-cy.end"
-);
 classes = (
 {
 code = "a b c d e f g h i j k l m n o p q r s t u v w x y z a.end a_x a_x.end a_z aacute aacute.end acircumflex adieresis ae agrave aogonek aring atilde b_s b_s.end b_s_x b_s_z c.end c_x c_z cacute ccaron ccedilla ccircumflex d.end idotless idotless.end e.end e_x e_x.end e_z eacute eacute.end eacute_x ecircumflex edieresis egrave eogonek eth ff ffi ffl f_f_t fi fi.end f_i_x f_i_z fl fl.end f_l_x f_l_z f_t f_u f_u.end f_x g.end g_p g_x g_z h.end i.end ij ij.end i_x i_x.end i_z iacute iacute.end iacute_x iacute_z icircumflex idieresis igrave j.end j_x j_z k.end k.salt l.end l_x l_z lslash m.end m_x m_z mu n.end n_z nacute ntilde o.end o_ae o_s o_s.end o_s_x o_s_z o_x oacute oacute.end oacute_s oacute_s.end oacute_s_x oacute_s_z oacute_x ocircumflex odieresis oe ograve oslash otilde p.salt r_x r_z s.end s_x s_z sacute scaron t.end t_x t_z thorn u.end u_v u_x u_x.end uacute uacute.end ucircumflex udieresis ugrave x.end y.end y_p y_x y_z yacute ydieresis zacute zcaron zdotaccent";
@@ -17,7 +14,7 @@ code = "a.end c.end d.end e.end g.end h.end i.end j.end k.end l.end m.end n.end 
 name = finals;
 },
 {
-code = "a-cy be-cy ve-cy ge-cy de-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ef-cy ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy iu-cy ia-cy io-cy gje-cy e-cy dze-cy i-cy yi-cy je-cy lje-cy nje-cy tshe-cy kje-cy ushort-cy dzhe-cy mu o-cy.end gheupturn-cy a_ha-cy a_che-cy be_ge-cy be_zhe-cy be_ereversed-cy be_gje-cy be_i-cy be_yi-cy be_je-cy be_ushort-cy be_io-cy be_iishort-cy glyph455 ve_ge-cy ve_gje-cy ve_zhe-cy ve_ze-cy ve_ha-cy ge_ze-cy ge_ha-cy ge_che-cy gje_ze-cy gje_ha-cy gje_che-cy de_che-cy de_je-cy io_ze-cy ie_che-cy io_che-cy zhe_che-cy ii_che-cy iishort_che-cy ie_ze-cy ka_che-cy kje_che-cy el_che-cy em_che-cy en_che-cy o_ge-cy o_gje-cy iu_ge-cy iu_gje-cy o_zhe-cy iu_zhe-cy o_ze-cy iu_ze-cy o_el-cy iu_el-cy o_lje-cy iu_lje-cy o_em-cy iu_em-cy iu_ha-cy o_ereversed-cy iu_ereversed-cy pe_che-cy es_ze-cy u_je-cy e_ze-cy e_ha-cy es_che-cy e_che-cy te_che-cy es_hardsign-cy ushort_je-cy u_che-cy ushort_che-cy ha_che-cy ha_hardsign-cy che_che-cy sha_che-cy yeru_che-cy i_che-cy yi_che-cy yi_yi-cy hryvnia tshe_je-cy tshe_che-cy je_je-cy je_che-cy dze_ze-cy dze_ha-cy dze_che-cy dzhe_che-cy ereversed_ze-cy ia_che-cy Ie_ze-cy Ie_ha-cy Io_ze-cy Io_ha-cy Es_ze-cy Es_ha-cy E_ze-cy E_ha-cy ie_ha-cy io_ha-cy o_ha-cy er_ze-cy es_ha-cy ef_ze-cy ze_ze-cy a-cy.end es-cy.end zhe-cy.end ie-cy.end io-cy.end de-cy.end ii-cy.end iishort-cy.end ka-cy.end el-cy.end em-cy.end en-cy.end pe-cy.end te-cy.end u-cy.end ha-cy.end che-cy.end sha-cy.end yeru-cy.end i-cy.end je-cy.end dze-cy.end ia-cy.end ve-cy.end ze-cy.end a_ha-cy.liga a_che-cy.liga be_zhe-cy.liga be_i-cy.liga be_yi-cy.liga be_je-cy.liga be_ushort-cy.liga be_io-cy.liga be_iishort-cy.liga ve_zhe-cy.liga ve_ze-cy.liga ve_ha-cy.liga ge_ze-cy.liga ge_ha-cy.liga ge_che-cy.liga gje_ze-cy.liga gje_ha-cy.liga gje_che-cy.liga de_che-cy.liga de_je-cy.liga ie_ze-cy.liga ie_che-cy.liga io_che-cy.liga io_ze-cy.liga zhe_che-cy.liga ii_che-cy.liga iishort_che-cy.liga ka_che-cy.liga kje_che-cy.liga el_che-cy.liga em_che-cy.liga en_che-cy.liga o_zhe-cy.liga iu_zhe-cy.liga o_ze-cy.liga iu_ze-cy.liga o_el-cy.liga iu_el-cy.liga o_em-cy.liga iu_em-cy.liga iu_ha-cy.liga pe_che-cy.liga es_ze-cy.liga u_je-cy.liga e_ze-cy.liga e_ha-cy.liga es_che-cy.liga e_che-cy.liga te_che-cy.liga ushort_je-cy.liga u_che-cy.liga ushort_che-cy.liga ha_che-cy.liga che_che-cy.liga sha_che-cy.liga yeru_che-cy.liga i_che-cy.liga yi_che-cy.liga yi_yi-cy.liga tshe_je-cy.liga tshe_che-cy.liga je_je-cy.liga je_che-cy.liga dze_ze-cy.liga dze_ha-cy.liga dze_che-cy.liga dzhe_che-cy.liga ereversed_ze-cy.liga ia_che-cy.liga ie_ha-cy.liga io_ha-cy.liga o_ha-cy.liga er_ze-cy.liga es_ha-cy.liga ef_ze-cy.liga ze_ze-cy.liga";
+code = "a-cy be-cy ve-cy ge-cy de-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ef-cy ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy iu-cy ia-cy io-cy gje-cy e-cy dze-cy i-cy yi-cy je-cy lje-cy nje-cy tshe-cy kje-cy ushort-cy dzhe-cy mu o-cy.end gheupturn-cy a_ha-cy a_che-cy be_ge-cy be_zhe-cy be_ereversed-cy be_gje-cy be_i-cy be_yi-cy be_je-cy be_ushort-cy be_io-cy be_iishort-cy ve_ge-cy ve_gje-cy ve_zhe-cy ve_ze-cy ve_ha-cy ge_ze-cy ge_ha-cy ge_che-cy gje_ze-cy gje_ha-cy gje_che-cy de_che-cy de_je-cy io_ze-cy ie_che-cy io_che-cy zhe_che-cy ii_che-cy iishort_che-cy ie_ze-cy ka_che-cy kje_che-cy el_che-cy em_che-cy en_che-cy o_ge-cy o_gje-cy iu_ge-cy iu_gje-cy o_zhe-cy iu_zhe-cy o_ze-cy iu_ze-cy o_el-cy iu_el-cy o_lje-cy iu_lje-cy o_em-cy iu_em-cy iu_ha-cy o_ereversed-cy iu_ereversed-cy pe_che-cy es_ze-cy u_je-cy e_ze-cy e_ha-cy es_che-cy e_che-cy te_che-cy es_hardsign-cy ushort_je-cy u_che-cy ushort_che-cy ha_che-cy ha_hardsign-cy che_che-cy sha_che-cy yeru_che-cy i_che-cy yi_che-cy yi_yi-cy hryvnia tshe_je-cy tshe_che-cy je_je-cy je_che-cy dze_ze-cy dze_ha-cy dze_che-cy dzhe_che-cy ereversed_ze-cy ia_che-cy Ie_ze-cy Ie_ha-cy Io_ze-cy Io_ha-cy Es_ze-cy Es_ha-cy E_ze-cy E_ha-cy ie_ha-cy io_ha-cy o_ha-cy er_ze-cy es_ha-cy ef_ze-cy ze_ze-cy a-cy.end es-cy.end zhe-cy.end ie-cy.end io-cy.end de-cy.end ii-cy.end iishort-cy.end ka-cy.end el-cy.end em-cy.end en-cy.end pe-cy.end te-cy.end u-cy.end ha-cy.end che-cy.end sha-cy.end yeru-cy.end i-cy.end je-cy.end dze-cy.end ia-cy.end ve-cy.end ze-cy.end a_ha-cy.liga a_che-cy.liga be_zhe-cy.liga be_i-cy.liga be_yi-cy.liga be_je-cy.liga be_ushort-cy.liga be_io-cy.liga be_iishort-cy.liga ve_zhe-cy.liga ve_ze-cy.liga ve_ha-cy.liga ge_ze-cy.liga ge_ha-cy.liga ge_che-cy.liga gje_ze-cy.liga gje_ha-cy.liga gje_che-cy.liga de_che-cy.liga de_je-cy.liga ie_ze-cy.liga ie_che-cy.liga io_che-cy.liga io_ze-cy.liga zhe_che-cy.liga ii_che-cy.liga iishort_che-cy.liga ka_che-cy.liga kje_che-cy.liga el_che-cy.liga em_che-cy.liga en_che-cy.liga o_zhe-cy.liga iu_zhe-cy.liga o_ze-cy.liga iu_ze-cy.liga o_el-cy.liga iu_el-cy.liga o_em-cy.liga iu_em-cy.liga iu_ha-cy.liga pe_che-cy.liga es_ze-cy.liga u_je-cy.liga e_ze-cy.liga e_ha-cy.liga es_che-cy.liga e_che-cy.liga te_che-cy.liga ushort_je-cy.liga u_che-cy.liga ushort_che-cy.liga ha_che-cy.liga che_che-cy.liga sha_che-cy.liga yeru_che-cy.liga i_che-cy.liga yi_che-cy.liga yi_yi-cy.liga tshe_je-cy.liga tshe_che-cy.liga je_je-cy.liga je_che-cy.liga dze_ze-cy.liga dze_ha-cy.liga dze_che-cy.liga dzhe_che-cy.liga ereversed_ze-cy.liga ia_che-cy.liga ie_ha-cy.liga io_ha-cy.liga o_ha-cy.liga er_ze-cy.liga es_ha-cy.liga ef_ze-cy.liga ze_ze-cy.liga";
 name = all_cyr;
 },
 {
@@ -122,7 +119,7 @@ name = salt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [brevecomb-cy];\012	@MarkscombCase = [brevecomb-cy.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [brevecomb-cy];\012	@MarkscombCase = [brevecomb-cy.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012";
 name = ccmp;
 },
 {
@@ -149691,133 +149688,6 @@ nodes = (
 }
 );
 width = 780;
-}
-);
-},
-{
-color = 4;
-glyphname = glyph455;
-lastChange = "2016-09-22 17:50:23 +0000";
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"359 435 OFFCURVE",
-"406 530 OFFCURVE",
-"406 614 CURVE SMOOTH",
-"406 713 OFFCURVE",
-"363 751 OFFCURVE",
-"296 751 CURVE SMOOTH",
-"118 751 OFFCURVE",
-"-14 320 OFFCURVE",
-"-14 176 CURVE SMOOTH",
-"-14 72 OFFCURVE",
-"37 -4 OFFCURVE",
-"152 -4 CURVE SMOOTH",
-"302 -4 OFFCURVE",
-"390 118 OFFCURVE",
-"390 249 CURVE SMOOTH",
-"390 300 OFFCURVE",
-"367 353 OFFCURVE",
-"324 374 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"296 269 OFFCURVE",
-"299 251 OFFCURVE",
-"299 226 CURVE SMOOTH",
-"299 161 OFFCURVE",
-"261 86 OFFCURVE",
-"196 86 CURVE SMOOTH",
-"152 86 OFFCURVE",
-"135 121 OFFCURVE",
-"135 173 CURVE SMOOTH",
-"135 279 OFFCURVE",
-"223 673 OFFCURVE",
-"309 673 CURVE SMOOTH",
-"332 673 OFFCURVE",
-"342 659 OFFCURVE",
-"342 618 CURVE SMOOTH",
-"342 544 OFFCURVE",
-"307 448 OFFCURVE",
-"272 384 CURVE",
-"232 381 OFFCURVE",
-"202 367 OFFCURVE",
-"202 324 CURVE SMOOTH",
-"202 293 OFFCURVE",
-"223 275 OFFCURVE",
-"254 275 CURVE SMOOTH",
-"273 275 OFFCURVE",
-"279 277 OFFCURVE",
-"290 281 CURVE"
-);
-}
-);
-};
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"302 -4 OFFCURVE",
-"390 118 OFFCURVE",
-"390 249 CURVE SMOOTH",
-"390 300 OFFCURVE",
-"367 353 OFFCURVE",
-"324 374 CURVE",
-"359 435 OFFCURVE",
-"406 530 OFFCURVE",
-"406 614 CURVE SMOOTH",
-"406 713 OFFCURVE",
-"363 751 OFFCURVE",
-"296 751 CURVE SMOOTH",
-"118 751 OFFCURVE",
-"-14 320 OFFCURVE",
-"-14 176 CURVE SMOOTH",
-"-14 72 OFFCURVE",
-"37 -4 OFFCURVE",
-"152 -4 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"152 86 OFFCURVE",
-"135 121 OFFCURVE",
-"135 173 CURVE SMOOTH",
-"135 279 OFFCURVE",
-"223 673 OFFCURVE",
-"309 673 CURVE SMOOTH",
-"332 673 OFFCURVE",
-"342 659 OFFCURVE",
-"342 618 CURVE SMOOTH",
-"342 544 OFFCURVE",
-"307 448 OFFCURVE",
-"272 384 CURVE",
-"232 381 OFFCURVE",
-"202 367 OFFCURVE",
-"202 324 CURVE SMOOTH",
-"202 293 OFFCURVE",
-"223 275 OFFCURVE",
-"254 275 CURVE SMOOTH",
-"273 275 OFFCURVE",
-"279 277 OFFCURVE",
-"290 281 CURVE",
-"296 269 OFFCURVE",
-"299 251 OFFCURVE",
-"299 226 CURVE SMOOTH",
-"299 161 OFFCURVE",
-"261 86 OFFCURVE",
-"196 86 CURVE SMOOTH"
-);
-}
-);
-width = 449;
 }
 );
 },
