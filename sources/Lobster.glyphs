@@ -1,9 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-/commaaccentcomb,
-/circumflexcomb/circumflex
-);
 classes = (
 {
 code = "a b c d e f g h i j k l m n o p q r s t u v w x y z a.end a_x a_x.end a_z aacute aacute.end acircumflex adieresis ae agrave aogonek aring atilde b_s b_s.end b_s_x b_s_z c.end c_x c_z cacute ccaron ccedilla ccircumflex d.end idotless idotless.end e.end e_x e_x.end e_z eacute eacute.end eacute_x ecircumflex edieresis egrave eogonek eth ff ffi ffl f_f_t fi fi.end f_i_x f_i_z fl fl.end f_l_x f_l_z f_t f_u f_u.end f_x g.end g_p g_x g_z h.end i.end ij ij.end i_x i_x.end i_z iacute iacute.end iacute_x iacute_z icircumflex idieresis igrave j.end j_x j_z k.end k.salt l.end l_x l_z lslash m.end m_x m_z mu n.end n_z nacute ntilde o.end o_ae o_s o_s.end o_s_x o_s_z o_x oacute oacute.end oacute_s oacute_s.end oacute_s_x oacute_s_z oacute_x ocircumflex odieresis oe ograve oslash otilde p.salt r_x r_z s.end s_x s_z sacute scaron t.end t_x t_z thorn u.end u_v u_x u_x.end uacute uacute.end ucircumflex udieresis ugrave x.end y.end y_p y_x y_z yacute ydieresis zacute zcaron zdotaccent";
@@ -22579,9 +22575,60 @@ unicode = 1E62;
 {
 color = 4;
 glyphname = Germandbls;
-lastChange = "2017-10-26 14:24:11 +0000";
+lastChange = "2017-10-27 06:32:58 +0000";
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"111 -214 LINE",
+"250 434 LINE SMOOTH",
+"283 590 OFFCURVE",
+"303 638 OFFCURVE",
+"339 638 CURVE SMOOTH",
+"367 638 OFFCURVE",
+"378 617 OFFCURVE",
+"378 586 CURVE SMOOTH",
+"378 512 OFFCURVE",
+"319 384 OFFCURVE",
+"289 351 CURVE",
+"337 324 OFFCURVE",
+"362 256 OFFCURVE",
+"362 193 CURVE SMOOTH",
+"362 125 OFFCURVE",
+"334 63 OFFCURVE",
+"279 63 CURVE SMOOTH",
+"255 63 OFFCURVE",
+"234 72 OFFCURVE",
+"224 86 CURVE",
+"212 76 OFFCURVE",
+"205 60 OFFCURVE",
+"205 45 CURVE SMOOTH",
+"205 13 OFFCURVE",
+"233 -6 OFFCURVE",
+"285 -6 CURVE SMOOTH",
+"416 -6 OFFCURVE",
+"482 76 OFFCURVE",
+"482 171 CURVE SMOOTH",
+"482 243 OFFCURVE",
+"444 323 OFFCURVE",
+"368 380 CURVE",
+"396 415 OFFCURVE",
+"464 514 OFFCURVE",
+"464 603 CURVE SMOOTH",
+"464 663 OFFCURVE",
+"416 700 OFFCURVE",
+"337 700 CURVE SMOOTH",
+"217 700 OFFCURVE",
+"141 606 OFFCURVE",
+"101 412 CURVE",
+"-40 -250 LINE"
+);
+}
+);
+};
 layerId = UUID0;
 paths = (
 {
@@ -149687,7 +149734,7 @@ width = 209;
 {
 color = 4;
 glyphname = Tdieresis;
-lastChange = "2016-09-22 17:50:23 +0000";
+lastChange = "2017-10-27 06:31:35 +0000";
 layers = (
 {
 background = {
@@ -149800,6 +149847,8 @@ nodes = (
 width = 481;
 }
 );
+leftMetricsKey = T;
+rightMetricsKey = T;
 },
 {
 color = 4;
