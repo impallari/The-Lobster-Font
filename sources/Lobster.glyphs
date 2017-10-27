@@ -39,7 +39,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2010 The Lobster Font Authors (impallari@gmail.com), with Reserved Font Name \"Lobster\".";
+copyright = "Copyright 2010 The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font), with Reserved Font Name \"Lobster\".";
 customParameters = (
 {
 name = licenseURL;
@@ -150073,8 +150073,9 @@ width = 600;
 unicode = 0000;
 },
 {
+color = 4;
 glyphname = commaacent;
-lastChange = "2017-10-23 11:21:35 +0000";
+lastChange = "2017-10-27 06:13:16 +0000";
 layers = (
 {
 components = (
