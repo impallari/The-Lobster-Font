@@ -1,7 +1,7 @@
 The Lobster Font
 ======================
 
-The latest version (currently v1.7) of The Lobster Font.
+The latest version (currently v2.1) of The Lobster Font.
 
 ## License
 
